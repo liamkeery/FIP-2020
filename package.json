@@ -1,10 +1,10 @@
 {
   "name": "fip-2020",
   "version": "1.0.0",
-  "description": "Client: Regional HIV/AIDS Connection ## Built With * [Bootstrap](https://getbootstrap.com) - Bootstrap Framework * [Sass](https://sass-lang.com \"Sass\") - Syntactically Awesome Style Sheets * [Node.js](https://nodejs.org/en/ \"Node\") - JavaScript Run-time Environment * [Vue.js](https://vuejs.org/ \"Vue.js\") - A Progressive JavaScript Framework * [Express](https://expressjs.com \"Express\") - Framework for Node.js * [Gulp]",
-  "main": "gulpfile.js",
+  "description": "Open up: Safe sex and Disclosure",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -13,10 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liamkeery/FIP-2020/issues"
-  },
-  "homepage": "https://github.com/liamkeery/FIP-2020#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2"
