@@ -1,0 +1,16 @@
+@media (min-width: 375px) {
+    .navbar {
+        background-color: #343a40 !important;
+    }
+    .navbar {
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width: 992px) { 
+    .navbar {
+        background-color: transparent !important;
+    }
+}
