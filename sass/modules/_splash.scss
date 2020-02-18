@@ -8,3 +8,74 @@
 
 }
 
+#splash h1 {
+    color: white;
+}
+
+#splash span {
+    color: #D80000;
+}
+
+.type-cursor { 
+    color:#000; 
+    font-size: 20px;
+    animation: blink .4s ease infinite;
+    opacity:0; 
+}
+
+@keyframes blink {
+    100% { 
+        opacity: 1; 
+    }
+}
+
+.btn {
+    background-color: #D80000 !important;
+    color: white !important;
+    border: none;
+    border-radius: 25px !important;
+    padding: 10px 30px !important;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem !important;
+
+
+}
+
+i {
+    border: solid #D80000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position : absolute;
+    margin-top: 50%;
+
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .arrow-down {
+    transform: scale(2) !important;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+  }
+
+  @keyframes floating {
+    0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+}
+
