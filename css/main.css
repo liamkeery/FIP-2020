@@ -25,6 +25,21 @@ nav.navbar ul li a:hover:after {
   height: 120%;
   border-radius: 5px; }
 
+#splash {
+  height: 100vh;
+  background-image: url("/2020_fip/images/talk.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  backdrop-filter: blur(6px);
+  background-position: center; }
+
+#section2 {
+  background-color: blue;
+  height: 100vh; }
+
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: auto; }
 

@@ -1,5 +1,12 @@
 @import 'modules/_nav';
+@import 'modules/_splash';
+@import 'modules/_section2';
+
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     margin: auto;
+    
 }

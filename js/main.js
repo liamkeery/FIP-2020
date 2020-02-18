@@ -1,4 +1,5 @@
-import usersComponent from "./components/usersComponent.js";
+import Home from "./components/Home.js";
+
 
 // todo => use a key to track the current video, or just pass the video in as a ref to the function and grab its source
 Vue.component('', {
@@ -18,7 +19,7 @@ const router = new VueRouter({
   routes: [
     { path: "/", 
     name: "home", 
-    component: ""}
+    component: Home }
   ]
 }) 
 
