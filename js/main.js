@@ -14,13 +14,13 @@ var vm = new Vue({
   el: "#app", 
 
   data: {
-
+    
     
 },
 
 
   methods: { //functionality that you can run in vue
-   
+    
   },
 
   router

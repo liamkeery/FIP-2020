@@ -5,6 +5,49 @@
     .navbar {
         text-align: center;
     }
+    i {
+        margin-top: 45%;
+    }
+    #splash h1 {
+        font-size: 70px;
+    }
+    #section2 h1 {
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    #section2 p {
+        font-size: 20px;
+    }
+    #section3 h1 {
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    #section3 p {
+        font-size: 20px;
+    }
+    #section3 span {
+        font-size: 20px;
+    }
+    #section3 button {
+        margin-bottom: 20px;
+    }
+    #section4 h1 {
+        font-size: 30px;
+    }
+    #section4 h4 {
+        font-size: 20px;
+
+    }
+    #section4 p {
+        font-size: 16px;
+    }
+    #aboutUs h1{
+        font-size: 50px;
+        margin-top: 5%;
+        margin-bottom: 0%;
+
+    }
+    
 }
 
 
@@ -12,5 +55,50 @@
 @media (min-width: 992px) { 
     .navbar {
         background-color: transparent !important;
+    }
+    i {
+        margin-top: 50%;
+    }
+    #section2 h1 {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    #section2 p {
+        color: #2a2a2a;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 32px;
+    }
+    #section3 h1 {
+        font-size: 60px;
+        margin-top: 5%;
+    }
+    #section3 p {
+        font-size: 32px;
+
+    }
+    #section3 span {
+        font-size: 32px;
+
+    }
+    #section4 h1 {
+        margin-top: 0%;
+        font-size: 60px;
+    }
+    
+    #section4 h4 {
+        font-size: 32px;
+
+    }
+    #aboutUs h1{
+        font-size: 60px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+
+    }
+    #aboutUs h6 {
+        font-size: 20px;
+    }
+    footer img {
+        width: 5%;
     }
 }
