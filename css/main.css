@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800&display=swap");
 .navbar {
   background-color: transparent !important; }
 
@@ -43,7 +44,7 @@ nav.navbar ul li a:hover:after {
 
 #splash {
   height: 100vh;
-  background-image: url("/2020_fip/images/talk.jpg");
+  background-image: url("/FIP-2020/images/splash-bg.png");
   min-height: 100vh;
   background-size: cover;
   backdrop-filter: blur(6px);
@@ -103,24 +104,212 @@ i {
   100% {
     transform: translateY(0px); } }
 #section2 {
-  background-color: blue;
-  height: 100vh; }
+  background-color: white;
+  min-height: 50vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 20px;
+  position: relative; }
+
+#section2 h1 {
+  color: #D80000;
+  font-size: 60px; }
+
+#section2 h6 {
+  color: #2a2a2a;
+  font-family: 'Open Sans', sans-serif; }
+
+#section2 p {
+  color: #2a2a2a;
+  font-size: 32px; }
+
+#section3 {
+  margin-top: 0px;
+  background-color: #2a2a2a;
+  min-height: 50vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative; }
+
+#section3 h1 {
+  font-size: 60px;
+  color: white; }
+
+#section3 p, h6 {
+  font-size: 32px;
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
+
+#section3 span {
+  color: #d80000;
+  font-size: 32px; }
+
+#section4 {
+  background-color: white;
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-bottom: 20px;
+  position: relative; }
+
+#section4 h1 {
+  color: #D80000;
+  font-size: 60px; }
+
+#section4 h4 {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif; }
+
+#section4 p {
+  color: #2a2a2a;
+  font-size: 16px; }
+
+#section4 span {
+  color: #D80000; }
+
+#aboutUs {
+  background-color: white;
+  min-height: 100vh;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-bottom: 20px;
+  position: relative; }
+
+#aboutUs h1 {
+  color: #D80000;
+  font-size: 60px; }
+
+#aboutUs h6 {
+  color: #2a2a2a; }
+
+#aboutUs p {
+  color: #2a2a2a;
+  font-size: 16px; }
+
+#aboutUs span {
+  color: #D80000; }
+
+footer {
+  background-color: #2a2a2a;
+  min-height: 40vh;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px; }
+
+footer img {
+  width: 15%; }
+
+footer h4 {
+  font-weight: regular !important;
+  font-family: 'Montserrat', sans-serif; }
+
+.sec-footer {
+  background-color: #d80000;
+  color: white;
+  padding-top: 10px; }
 
 @media (min-width: 375px) {
   .navbar {
     background-color: #343a40 !important; }
 
   .navbar {
-    text-align: center; } }
+    text-align: center; }
+
+  i {
+    margin-top: 45%; }
+
+  #splash h1 {
+    font-size: 70px; }
+
+  #section2 h1 {
+    font-size: 30px;
+    margin-top: 20%; }
+
+  #section2 p {
+    font-size: 20px; }
+
+  #section3 h1 {
+    font-size: 30px;
+    margin-top: 20%; }
+
+  #section3 p {
+    font-size: 20px; }
+
+  #section3 span {
+    font-size: 20px; }
+
+  #section3 button {
+    margin-bottom: 20px; }
+
+  #section4 h1 {
+    font-size: 30px; }
+
+  #section4 h4 {
+    font-size: 20px; }
+
+  #section4 p {
+    font-size: 16px; }
+
+  #aboutUs h1 {
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 0%; } }
 @media (min-width: 992px) {
   .navbar {
-    background-color: transparent !important; } }
+    background-color: transparent !important; }
+
+  i {
+    margin-top: 50%; }
+
+  #section2 h1 {
+    font-size: 60px;
+    margin-top: 5%; }
+
+  #section2 p {
+    color: #2a2a2a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px; }
+
+  #section3 h1 {
+    font-size: 60px;
+    margin-top: 5%; }
+
+  #section3 p {
+    font-size: 32px; }
+
+  #section3 span {
+    font-size: 32px; }
+
+  #section4 h1 {
+    margin-top: 0%;
+    font-size: 60px; }
+
+  #section4 h4 {
+    font-size: 32px; }
+
+  #aboutUs h1 {
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%; }
+
+  #aboutUs h6 {
+    font-size: 20px; }
+
+  footer img {
+    width: 5%; } }
 html {
   scroll-behavior: smooth; }
 
 body {
   margin: auto;
-  position: relative; }
+  position: relative;
+  background-color: white; }
+
+body p, a {
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif; }
 
 a {
   color: white !important; }

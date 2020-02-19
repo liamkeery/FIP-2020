@@ -1,3 +1,4 @@
+
 export default {
     template: `
     <div class="container-fluid d-flex" id="splash">
@@ -15,5 +16,6 @@ export default {
             </div>
         </div>
     </div>
+
     `
 }

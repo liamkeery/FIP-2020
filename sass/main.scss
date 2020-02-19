@@ -1,7 +1,13 @@
 @import 'modules/_nav';
 @import 'modules/_splash';
 @import 'modules/_section2';
+@import 'modules/_section3';
+@import 'modules/_section4';
+@import 'modules/_aboutUs';
+@import 'modules/_footer';
 @import 'modules/_mediaqueries';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800&display=swap');
 
 
 html {
@@ -11,6 +17,16 @@ html {
 body {
     margin: auto;
     position: relative;
+    background-color: white;
+}
+
+body p, a {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
