@@ -1,3 +1,6 @@
+import section2 from "./section2.js"
+
+import adminlogin from "./adminlogin.js"
 
 export default {
     template: `
@@ -16,6 +19,11 @@ export default {
             </div>
         </div>
     </div>
+    
 
-    `
+    `,
+    components: {
+        section2: section2,
+        adminlogin: adminlogin
+    }
 }

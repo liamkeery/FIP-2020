@@ -2,7 +2,7 @@
 
 var eachLetter = 0;
 var adding = 0;
-var openTo = ['Conversation.','Acceptance.','Lorem.','Ipsum.'];
+var openTo = ['Conversation.','Acceptance.','Assistance.','Ipsum.'];
 var speed = 200;
 
 setTimeout(typingTexts, speed);

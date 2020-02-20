@@ -26,6 +26,7 @@
 </head>
 
 <body data-spy='scroll' data-target='.navbar' data-offset='50'>
+  <section id="app">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top" id="home">
         <!-- Logo -->
         <a class="navbar-brand" href="/">
@@ -56,111 +57,33 @@
 <main id="app">
   <router-view></router-view>
   
-<!-- Section2 -->
-  <div class="container-fluid" id="section2">
-      <div class="row mx-auto text-center">
-          <div class="col-lg-12 col-sm-12">
-              <h1 class="mb-4">So It's Your First Time?</h1>
-              <p>That’s okay. We have you covered.</p>
-              <h6>Learn more about starting the conversation with your partner about HIV/AIDS status.</h6>
-              <button class="btn mx-auto mt-5">LEARN MORE</button>
-          </div>
-      </div>
-  </div>
+  <!-- Section2 -->
+  <!-- <section2></section2> -->
 
-  <!-- Section3 -->
-  <div class="container-fluid" id="section3">
-    <div class="row mx-auto text-center">
-        <div class="col-lg-12 col-sm-12">
-            <h1 class="mb-4">Did You Know?</h1>
-            <p><span>14% </span>of Canadians are unaware of their HIV status.</p>
-            <h6>We can change that.</h6>
-            <button class="btn mx-auto mt-5">FIND A TEST CENTRE</button>
-        </div>
-    </div>
-</div>
+    <!-- Section3 -->
+  <section3></section3>
 
-<!-- Section4 -->
-<div class="container-fluid" id="section4">
-  <div class="row mx-auto text-center">
-      <div class="col-lg-12 col-sm-12">
-          <h1 class="mb-4">Let's Talk About Sex, Baby.</h1>
-          <h4 class="mb-5">Before you get busy, get informed.</h4>
-          <div class="row col-lg-6 mx-auto mt-4">
-              <div class="col-lg-4 mx-auto mt-4">
-                <img src="./images/Group 1.png" alt="Image 1" class="mb-3">
-                <p><span><strong>53% </strong></span>of HIV transmission is through sex between men.</p>
-              </div>
-              <div class="col-lg-4 mx-auto mt-4">
-                <img src="./images/Group 2.png" alt="Image 2" class="mb-3">
-                <p><span><strong>33% </strong></span>of HIV transmission is through heterosexual sex.</p>
-              </div>
-            </div>
-          <button class="btn mx-auto mt-5">SAFER SEX SUGGESTIONS</button>
-      </div>
-  </div>
-</div>
+  <!-- Section4 -->
+  <section4></section4>
 
-<!-- Who We Are -->
-<div class="container-fluid" id="aboutUs">
-  <div class="row mx-auto text-center">
-      <div class="col-lg-12 col-sm-12">
-          <h1 class="mb-4">Who We Are</h1>
-          <h6 class="mb-5"><strong>Our campaign goal is described in the name itself: <span>Open Up.</span> </strong></h6>
-          <div class="row col-lg-8 mx-auto mt-4">
-              <p class="text-left">Open Up is a campaign in collaboration with Regional HIV/AIDS Connection dedicated to creating awareness and diminishing the stigma surrounding HIV and AIDS. We aim to promote discussions amongst today’s teens and educate on disclosure and safer sex practices. 
-              </p>
-              <p class="text-left">
-                We want to encourage teens to open up to conversation about AIDS/HIV and not let the stigma that follows it stand in the way. We motivate people to open up their minds and realize the importance of discussion and acceptance in today’s society. Open Up pushes people to be open to accepting help and assistance, and points them to these resources.                
-              </p>
-            </div>
-      </div>
-  </div>
-</div>
+  <!-- Who We Are -->
+  <aboutus></aboutus>
 
- <footer class="container-fluid">
-   <div class="row text-center mx-auto">
-     <div class="col">
-        <img src="./images/logo-final.png" alt="Logo" class="mt-5">
-        <h4 class="mt-2">#OPENUP</h4>
-        <p class="mt-4 mb-5">Created in partnership with <a href="https://hivaidsconnection.ca/">Regional HIV&#47;AIDS Connection.</a></p>
-        <p class="mt-5 mb-5"><a href="/admin">Admin Login</a></p>
-     </div>
-    </div>
- </footer>
- <div class="container-fluid sec-footer">
-  <div class="row text-center mx-auto">
-    <div class="col">
-      <p>Copyright © 2020 Open Up. All Rights Reserved.</p>
-     </div>
-  </div>
- </div>
+  <!-- Main Footer -->
+  <main-footer></main-footer>
+
+  <!-- Secondary Footer -->
+  <sec-footer></sec-footer>
 
 
 </main>
 <!-- End of Main Content -->
-
-
-
-            <!-- <section class="hidden-movies" :class="{ 'show-movie' : showMovieDetails }"> hidden movies-->
-            <!-- <h3 class="movie-title">{{ videotitle }}</h3> see main js
-            <video :src="'video/' + vidsource" controls autoplay></video>
-            <div class="movie-details">
-                <p>{{ videodescription }}</p>
-            </div> LOOK AT TEMPLATE IN MAIN.JS-->
-        <!-- 
-            <player v-bind:movie="movie" /> 
-            </section>  -->
-
-<!-- 
-  <footer>
-    <p>All content &copy; 2020 Open Up</p>
-  </footer> -->
+</section>
 
   <script defer src="js/main.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->
   <script defer src="js/typing.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->
   <script defer src="js/nav_scroll.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->
-  <script defer src="js/active_state.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->
+  
 
 </body>
 
