@@ -208,6 +208,9 @@ footer h4 {
   color: white;
   padding-top: 10px; }
 
+.login-bg {
+  background-color: #2a2a2a; }
+
 @media (min-width: 375px) {
   .navbar {
     background-color: #343a40 !important; }
