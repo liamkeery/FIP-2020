@@ -26,38 +26,14 @@
 </head>
 
 <body>
-    <section id="login">
 
 
     <main id="login">
         <router-view></router-view>
-        <!-- Login Prompt -->
-        <div class="container-fluid">
-            <div class="row login-bg">
-                <div class="col">
-                    <div class="login-panel">
-                        <form class="form" action="scripts/register.php" method="POST">
-
-                            <div class="form-group">
-                            <input class="form-control" type="text" value="" name="username" placeholder="Username"/>
-                            </div>
-                
-                            <br>
-                
-                            <div class="form-group">
-                            <input class="form-control" type="password" value="" name="password" placeholder="Password"/>
-                            </div>
-
-                            <button type="submit" class="btn-lg btn-primary">Login</button>
-                            <span><a>Forgot Password</a></span>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
     </main>
 
-</section>
+
 
 <script defer src="js/main.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->
 <script defer src="js/typing.js" type="module"></script> <!-- defer will load the frist script first to avoid undefines -->

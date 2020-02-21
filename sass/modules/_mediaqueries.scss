@@ -47,6 +47,24 @@
         margin-bottom: 0%;
 
     }
+    form {
+        border: thick;
+        border-radius: 20px;
+        /* padding: 20px; */
+        background-color: white;
+        margin-top: 50%;
+    }
+    .form img {
+        margin-top: -80%;
+        width: 20%;
+    }
+    .login-title {
+        margin-top: -30%;
+
+    }
+    .cred {
+        margin-top: 20%;
+    }
     
 }
 
@@ -100,5 +118,103 @@
     }
     footer img {
         width: 5%;
+    }
+    html {
+        background-color: #2a2a2a ;
+    
+    }
+    .nav-back i {
+        border: solid white;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 5px;
+        margin-top: 5px;
+    
+      }
+      
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+    
+    .nav-back {
+        background-color: #2a2a2a;
+    }
+    
+    .nav-back span {
+        color: white;
+    }
+    
+    .form-bg {
+        background-color: #2a2a2a;
+        
+    }
+    
+    form {
+        border: thick;
+        border-radius: 20px;
+        /* padding: 20px; */
+        background-color: white;
+        margin-top: 70%;
+    }
+    
+    form h6 {
+        color: #2a2a2a;
+    }
+    
+    .form img {
+        margin-top: -90%;
+        width: 30%;
+    }
+    
+    .login-title {
+        margin-top: -30%;
+        color: white;
+    }
+    
+    .cred {
+        margin-top: 40px;
+    }
+    
+    #username {
+        border-radius: 10px;
+        border: none;
+        background-color: #EDEDED !important;
+        background: url('/FIP-2020/images/user.png') no-repeat 10px 10px;
+        padding-left: 35px;
+    }
+    
+    #password {
+        border-radius: 10px;
+        border: none;
+        background-color: #EDEDED !important;
+        background: url('/FIP-2020/images/lock.png') no-repeat 10px 10px;
+        padding-left: 35px;
+    }
+    
+    .form button {
+        text-align: center;
+        background-color: #2a2a2a !important;
+        width: 50%;
+    
+    }
+    
+    .form button {
+        color: white;
+    }
+    
+    .form button:hover {
+        color: #d80000;
+    
+    }
+    
+    .form a {
+        color: #1F86D0 !important;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .nav-back a {
+        cursor: pointer;
     }
 }
