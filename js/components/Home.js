@@ -1,6 +1,8 @@
 //import section2 from "./section2.js"
 
 import adminlogin from "./adminlogin.js"
+//import adminCMS from "./adminCMS.js"
+
 
 export default {
     template: `
@@ -30,6 +32,7 @@ export default {
           </ul>
         </div>
       </nav>
+
 
     <!-- Splash -->
     <div class="container-fluid d-flex" id="splash">

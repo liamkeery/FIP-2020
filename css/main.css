@@ -76,7 +76,7 @@ nav.navbar ul li a:hover:after {
   display: block;
   font-size: 1.2rem !important; }
 
-i {
+.nav-link i {
   border: solid #D80000;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -357,6 +357,82 @@ form h6 {
   background-color: #d80000;
   text-decoration: none; }
 
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+  display: flex;
+  width: 100%; }
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  z-index: 999;
+  background: #414141;
+  color: #fff;
+  transition: all 0.3s; }
+
+#sidebar.active {
+  margin-left: -250px; }
+
+#sidebar hr {
+  border-top: 1px solid #ccc; }
+
+#side-toggle.active {
+  margin-left: 250px; }
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #2a2a2a; }
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px; }
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block; }
+
+#sidebar ul li a:hover {
+  color: #353535;
+  background: #d80000;
+  text-decoration: none; }
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background-color: #353535; }
+
+.btn-info {
+  margin-left: 110%;
+  color: black;
+  background-color: none !important;
+  border-color: none !important;
+  cursor: pointer;
+  background: transparent !important; }
+
+#sidebar button {
+  margin-left: 20%;
+  margin-top: 80% !important;
+  background-color: white !important;
+  color: #2a2a2a !important; }
+
+.mod {
+  margin-top: 0%;
+  background-color: none !important;
+  border-color: none !important; }
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+/* ---------------------------------------------------
+  MEDIAQUERIES
+----------------------------------------------------- */
 @media (min-width: 375px) {
   .navbar {
     background-color: #343a40 !important; }
@@ -420,6 +496,21 @@ form h6 {
 
   .cred {
     margin-top: 20%; } }
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px; }
+
+  #sidebar.active {
+    margin-left: 0; }
+
+  #content {
+    width: 100%; }
+
+  #content.active {
+    width: calc(100% - 250px); }
+
+  #sidebarCollapse span {
+    display: none; } }
 @media (min-width: 992px) {
   .navbar {
     background-color: transparent !important; }
