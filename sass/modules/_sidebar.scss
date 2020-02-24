@@ -1,0 +1,123 @@
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  z-index: 999;
+  background: #414141;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar hr {
+  border-top: 1px solid #ccc;
+}
+
+#side-toggle.active {
+  margin-left: 250px;
+
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #2a2a2a;
+}
+
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: #353535;
+  background: #d80000;
+  text-decoration: none;
+}
+
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background-color: #353535;
+}
+
+
+.btn-info {
+  margin-left: 110% ;
+  //margin-top: 50% ;
+  color: black;
+  background-color: none !important;
+  border-color: none !important;
+  cursor: pointer;
+  background: transparent !important;
+  
+}
+
+
+#sidebar button {
+  margin-left: 20%;
+  margin-top: 80% !important;
+  background-color: white !important;
+  color: #2a2a2a !important;
+}
+
+
+// #side-toggle {
+//   left: 250px;
+//   margin-left: -240px;
+// }
+
+.mod {
+    margin-top: 0% ;
+    background-color: none !important;
+    border-color: none !important;
+}
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+
+// #content {
+//   width: calc(100% - 250px);
+//   padding: 40px;
+//   min-height: 100vh;
+//   transition: all 0.3s;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+// }
+
+// #content.active {
+//   width: 100%;
+// }
+
+//#wrapper.toggled #page-content-wrapper {
+  // position: absolute;
+  // margin-right: -220px;
+
+/* ---------------------------------------------------
+  MEDIAQUERIES
+----------------------------------------------------- */
+
