@@ -8,7 +8,7 @@ export default {
     <div class="container-fluid" id="section4">
   <div class="row mx-auto text-center">
       <div class="col-lg-12 col-sm-12">
-          <h1 class="mb-4">Let's Talk About Sex, Baby yaaa.</h1>
+          <h1 class="mb-4">Let's Talk About Sex, Baby.</h1>
           <h4 class="mb-5">Before you get busy, get informed.</h4>
           <div class="row col-lg-6 mx-auto mt-4">
               <div class="col-lg-4 mx-auto mt-4">
