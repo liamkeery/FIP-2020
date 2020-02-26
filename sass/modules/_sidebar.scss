@@ -8,13 +8,12 @@
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  width: 250px;
   position: fixed;
   top: 0;
   left: 0;
   min-height: 100vh;
-  z-index: 999;
+  z-index: 5;
   background: #414141;
   color: #fff;
   transition: all 0.3s;
@@ -35,7 +34,7 @@
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #2a2a2a;
+  margin-top: 30%;
 }
 
 
@@ -56,17 +55,14 @@
   text-decoration: none;
 }
 
-
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
   background-color: #353535;
 }
 
-
 .btn-info {
   margin-left: 110% ;
-  //margin-top: 50% ;
   color: black;
   background-color: none !important;
   border-color: none !important;
@@ -78,16 +74,18 @@ ul ul a {
 
 #sidebar button {
   margin-left: 20%;
-  margin-top: 80% !important;
+  margin-top: 60% !important;
   background-color: white !important;
   color: #2a2a2a !important;
 }
 
 
-// #side-toggle {
-//   left: 250px;
-//   margin-left: -240px;
-// }
+#side-toggle {
+  margin-top: -50% ;
+  filter: drop-shadow(2px 2px 5px #424242);
+  -webkit-filter: drop-shadow(2px 2px 5px #424242);
+  -moz-filter: drop-shadow(2px 2px 5px #424242); 
+}
 
 .mod {
     margin-top: 0% ;
@@ -95,29 +93,18 @@ ul ul a {
     border-color: none !important;
 }
 
-/* ---------------------------------------------------
-  CONTENT STYLE
------------------------------------------------------ */
+//making the main content responsive
+#content {
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
-// #content {
-//   width: calc(100% - 250px);
-//   padding: 40px;
-//   min-height: 100vh;
-//   transition: all 0.3s;
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-// }
-
-// #content.active {
-//   width: 100%;
-// }
-
-//#wrapper.toggled #page-content-wrapper {
-  // position: absolute;
-  // margin-right: -220px;
-
-/* ---------------------------------------------------
-  MEDIAQUERIES
------------------------------------------------------ */
-
+#content.active {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}

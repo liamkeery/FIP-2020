@@ -3,15 +3,13 @@ Client: Regional HIV/AIDS Connection
 ## Built With
 * [Bootstrap](https://getbootstrap.com) - Bootstrap Framework
 * [Sass](https://sass-lang.com "Sass") - Syntactically Awesome Style Sheets
-* [Node.js](https://nodejs.org/en/ "Node") - JavaScript Run-time Environment
 * [Vue.js](https://vuejs.org/ "Vue.js") - A Progressive JavaScript Framework
-* [Express](https://expressjs.com "Express") - Framework for Node.js
 * [Gulp]
 
 
 ## Author
 * **Syrrel Cabiling** (https://github.com/syrrelCabiling)
-* **Liam Keery** (https://github.com/...)
+* **Liam Keery** (https://github.com/liamkeery)
 
 ## Team Members
 * Project Manager **Courtney Topping**
@@ -47,4 +45,6 @@ $ cd FIP-2020
 ## Acknowledgements
 * Fonts (https://fonts.google.com)
 * Images (https://www.unsplash.com)
+* Icons (https://fontawesome.com/)
+
 

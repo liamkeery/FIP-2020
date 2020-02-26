@@ -1,4 +1,4 @@
-import Home from "./Home.js";
+import home from "./home.js";
 
 
 export default {
@@ -36,10 +36,15 @@ export default {
 
     </nav>
     </div>
+
+    <!-- Main content -->
+    <div id="content">
+        <home></home>
+    </div>
+
     </section>
     `,
-    
     components: {
-        Home: Home
+        home: home
     }
 }
