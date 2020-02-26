@@ -105,7 +105,7 @@ nav.navbar ul li a:hover:after {
     transform: translateY(0px); } }
 #section2 {
   background-color: white;
-  min-height: 50vh;
+  min-height: 100vh;
   padding-top: 5%;
   padding-bottom: 5%;
   margin-bottom: 20px;
@@ -126,7 +126,8 @@ nav.navbar ul li a:hover:after {
 #section3 {
   margin-top: 0px;
   background-color: #2a2a2a;
-  min-height: 50vh;
+  min-height: 100vh;
+  height: 100vh;
   padding-top: 5%;
   padding-bottom: 5%;
   position: relative; }
@@ -208,9 +209,6 @@ footer h4 {
   color: white;
   padding-top: 10px; }
 
-html {
-  background-color: #2a2a2a; }
-
 .nav-back i {
   border: solid white;
   border-width: 0 5px 5px 0;
@@ -229,7 +227,8 @@ html {
   color: white; }
 
 .form-bg {
-  background-color: #2a2a2a; }
+  background-color: #2a2a2a;
+  min-height: 100vh !important; }
 
 form {
   border: thick;
@@ -365,13 +364,12 @@ form h6 {
   width: 100%; }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  width: 250px;
   position: fixed;
   top: 0;
   left: 0;
   min-height: 100vh;
-  z-index: 999;
+  z-index: 5;
   background: #414141;
   color: #fff;
   transition: all 0.3s; }
@@ -387,7 +385,7 @@ form h6 {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #2a2a2a; }
+  margin-top: 30%; }
 
 #sidebar ul p {
   color: #fff;
@@ -418,21 +416,34 @@ ul ul a {
 
 #sidebar button {
   margin-left: 20%;
-  margin-top: 80% !important;
+  margin-top: 60% !important;
   background-color: white !important;
   color: #2a2a2a !important; }
+
+#side-toggle {
+  margin-top: -50%;
+  filter: drop-shadow(2px 2px 5px #424242);
+  -webkit-filter: drop-shadow(2px 2px 5px #424242);
+  -moz-filter: drop-shadow(2px 2px 5px #424242); }
 
 .mod {
   margin-top: 0%;
   background-color: none !important;
   border-color: none !important; }
 
-/* ---------------------------------------------------
-  CONTENT STYLE
------------------------------------------------------ */
-/* ---------------------------------------------------
-  MEDIAQUERIES
------------------------------------------------------ */
+#content {
+  width: calc(100% - 250px);
+  min-height: 100vh;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+#content.active {
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s; }
+
 @media (min-width: 375px) {
   .navbar {
     background-color: #343a40 !important; }
@@ -445,6 +456,9 @@ ul ul a {
 
   #splash h1 {
     font-size: 70px; }
+
+  #section2 {
+    height: 100vh; }
 
   #section2 h1 {
     font-size: 30px;
@@ -517,6 +531,9 @@ ul ul a {
 
   i {
     margin-top: 50%; }
+
+  #section2 {
+    height: 100vh; }
 
   #section2 h1 {
     font-size: 60px;
@@ -632,7 +649,8 @@ ul ul a {
   .nav-back a {
     cursor: pointer; } }
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  background: white; }
 
 body {
   margin: auto;
