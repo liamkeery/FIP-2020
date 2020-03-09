@@ -5,7 +5,7 @@ export default {
     <section>
     <div class="container-fluid" id="aboutUs">
     <div class="row mx-auto text-center">
-    <div class="col-lg-12 col-sm-12">
+    <div class="col-lg-6 col-sm-12">
         <h1 class="mb-4">Who We Are</h1>
         <h6 class="mb-5"><strong>Our campaign goal is described in the name itself: <span>Open Up.</span> </strong></h6>
         <div class="row col-lg-8 mx-auto mt-4">
@@ -16,6 +16,8 @@ export default {
             </p>
           </div>
     </div>
+    <img src="./images/eggp.svg" alt="splash" class="sec3-svg col-lg-6 col-lg-offset-6">
+
 </div>
 </div>
   </section>

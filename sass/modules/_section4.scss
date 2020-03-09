@@ -1,14 +1,19 @@
 #section4 {
-    background-color: white; //try
+    background-color: #4bc9f5; //try
     min-height: 100vh;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
-    margin-bottom: 20px;
     position: relative;
 }
 
+.sec4-svg {
+    margin-top: -5%;
+        height: 120%;
+        margin-left: -5% !important;
+}
+
 #section4 h1 {
-    color: #D80000;
+    color: white;
     font-size: 60px;
 }
 
