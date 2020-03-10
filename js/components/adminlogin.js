@@ -15,7 +15,7 @@ export default {
         <div class="row form-bg ">
             <div class="col-lg-3 mx-auto">
                 <div class="form text-center">
-                    <form action="index.php" method="POST" class="px-4 py-3 mx-auto shadow"> <!-- Post is ideal to use here so information won't be exposed-->
+                    <form action="login.php" method="POST" class="px-4 py-3 mx-auto shadow"> <!-- Post is ideal to use here so information won't be exposed-->
                         <img src="./images/logo-final.png" alt="Logo">
                         <h3 class="login-title">Admin Panel</h3>
                         <h6 class="mx-auto text-center mb-4 cred">Please enter your credentials</h6>
@@ -25,7 +25,6 @@ export default {
                             <input type="password" name="password" value="" id="password" class="form-control mb-3" placeholder="PASSWORD">
     
                             <button name="submit" class="btn-lg btn mt-4">Login</button>
-                            <p class="mt-3"><a>Forgot Password</a></p>
                         </div>
                     </form>
                 </div>
