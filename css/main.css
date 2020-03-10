@@ -3,8 +3,13 @@
   background-color: transparent !important; }
 
 .navbar-fixed-top.scrolled {
-  background-color: black !important;
   transition: background-color 300ms ease; }
+
+.navbar-nav {
+  text-align: center;
+  background-color: #2a2a2a;
+  padding-bottom: 20px;
+  padding-top: 20px; }
 
 nav.navbar ul li a {
   position: relative;
@@ -123,7 +128,8 @@ nav.navbar ul li a:hover:after {
 
 #section2 h1 {
   color: white;
-  font-size: 60px; }
+  font-size: 60px;
+  margin-top: 10% !important; }
 
 #section2 h6 {
   color: #2a2a2a;
@@ -133,14 +139,17 @@ nav.navbar ul li a:hover:after {
   color: #2a2a2a;
   font-size: 32px; }
 
+.arrow2 {
+  bottom: 0;
+  margin-top: 0% !important;
+  margin-left: 50%; }
+
 .arrow2 i {
   border: solid #D80000;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
   position: absolute;
-  margin-top: 50% !important;
-  margin-left: 40%;
   z-index: 100 !important; }
 
 #section3 {
@@ -154,6 +163,15 @@ nav.navbar ul li a:hover:after {
 #section3 img {
   height: 120%;
   margin-right: -10% !important; }
+
+.arrow3 {
+  bottom: 0;
+  margin-top: 0% !important;
+  margin-left: 50%; }
+
+.arrow3 i {
+  bottom: 0;
+  margin-top: 10% !important; }
 
 #section3 h1 {
   font-size: 60px;
@@ -490,6 +508,10 @@ ul ul a {
   #splash {
     text-align: center; }
 
+  #splash-bg {
+    margin-left: 0px;
+    margin-right: 0px; }
+
   #splash h1 {
     font-size: 50px; }
 
@@ -505,6 +527,25 @@ ul ul a {
 
   #section2 p {
     font-size: 20px; }
+
+  .arrow2 {
+    bottom: 0;
+    margin-top: 10% !important;
+    margin-left: 50%; }
+
+  .arrow3 {
+    bottom: 0;
+    margin-top: -25% !important;
+    margin-left: 50%; }
+
+  .arrow3 i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    position: absolute;
+    z-index: 100 !important;
+    margin-top: 0% !important; }
 
   #section3 h1 {
     font-size: 30px;
@@ -550,6 +591,12 @@ ul ul a {
   .cred {
     margin-top: 20%; } }
 @media (max-width: 768px) {
+  #splash-bg {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
   #sidebar {
     margin-left: -250px; }
 
@@ -563,10 +610,17 @@ ul ul a {
     width: calc(100% - 250px); }
 
   #sidebarCollapse span {
-    display: none; } }
+    display: none; }
+
+  #splash {
+    text-align: center; } }
 @media (min-width: 992px) {
   .navbar {
     background-color: transparent !important; }
+
+  .navbar-nav {
+    text-align: center;
+    background-color: transparent; }
 
   i {
     margin-top: 50%; }
@@ -578,7 +632,8 @@ ul ul a {
     background-position: right 35% bottom 45%; }
 
   #splash-bg {
-    margin-left: 10%; }
+    margin-left: 10%;
+    float: left; }
 
   #section2 {
     height: 100vh; }
@@ -596,6 +651,12 @@ ul ul a {
     color: #2a2a2a;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px; }
+
+  .arrow2 {
+    top: 0;
+    bottom: 0;
+    margin-top: 15%;
+    margin-left: 50%; }
 
   #section3 h1 {
     font-size: 60px;

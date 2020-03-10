@@ -11,6 +11,12 @@
     #splash {
         text-align: center;
     }
+    #splash-bg {
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
     #splash h1 {
         font-size: 50px;
     }
@@ -26,6 +32,26 @@
     }
     #section2 p {
         font-size: 20px;
+    }
+    .arrow2 {
+        bottom: 0;
+        margin-top: 10% !important;
+        margin-left: 50%;
+    }
+    .arrow3 {
+        bottom: 0;
+        margin-top: -25% !important;
+        margin-left: 50%;
+    }
+    
+    .arrow3 i {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 6px;
+        position : absolute;
+        z-index: 100 !important;
+        margin-top: 0% !important;
     }
     #section3 h1 {
         font-size: 30px;
@@ -80,6 +106,12 @@
 
 
 @media (max-width: 768px) {
+    #splash-bg {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
     
     #sidebar {
         margin-left: -250px;
@@ -96,6 +128,9 @@
     #sidebarCollapse span {
         display: none;
     }
+    #splash {
+        text-align: center;
+    }
     
   }
 
@@ -106,9 +141,14 @@
     .navbar {
         background-color: transparent !important;
     }
+    .navbar-nav {
+        text-align: center;
+        background-color: transparent;
+    }
     i {
         margin-top: 50%;
     }
+
     #splash img {
         transform: scale(120%);
     }
@@ -119,6 +159,7 @@
 
     #splash-bg {
         margin-left: 10%;
+        float: left;
     }
 
     #section2 {
@@ -137,6 +178,12 @@
         color: #2a2a2a;
         font-family: 'Open Sans', sans-serif;
         font-size: 32px;
+    }
+    .arrow2 {
+        top:0;
+        bottom: 0;
+        margin-top: 15%;
+        margin-left: 50%;
     }
     #section3 h1 {
         font-size: 60px;
