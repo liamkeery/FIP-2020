@@ -3,11 +3,11 @@ import home from "./components/home.js";
 import adminlogin from "./components/adminlogin.js";
 import adminCMS from "./components/adminCMS.js";
 import ErrorPage from "./components/ErrorPage.js";
+import manageUsers from "./components/manageUsers.js";
 
+(() => {
 
-
-
-const router = new VueRouter({
+  const router = new VueRouter({
   routes: [
     { path: "/", 
     name: "home", 
@@ -21,33 +21,46 @@ const router = new VueRouter({
     name: "admin", 
     component: adminCMS }, 
 
+    { path: '/manage', 
+    name: "manage", 
+    component: manageUsers },
+
     { path: '*', 
     name: "error", 
     component: ErrorPage }//* catches anything that doesnt match MAKE THIS THE VERY LAST TO AVOID PROBLEMS
-
   ]
-}) 
+}); 
 
-
-
-
-var vm = new Vue({
+const vm = new Vue({
   el: "#app", 
 
   data: {
-    
-    
-},
-
-created: function() {
-  console.log('yo is workin');
-},
-
-
-  methods: { //functionality that you can run in vue
-    
+    authenticated: false,
+    administrator: false,
+      user: [],
   },
 
-  router
- 
+  methods: { //functionality that you can run in vue
+    setAuthenticated(status, data) {
+      this.authenticated = status;
+      this.user = data;
+  },
+
+  logout() {
+    // push user back to login page
+    this.$router.push({ path: "/adminlogin" });
+    this.authenticated = false;
+  }
+},
+
+  router: router
 }).$mount('#app');
+
+// router.beforeEach((to, from, next) => {
+//   if (vm.authenticated == false) {
+//     next("/adminlogin");
+//   } else {
+//     next();
+//   }
+// });
+})();
