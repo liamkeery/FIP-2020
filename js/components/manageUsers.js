@@ -12,13 +12,13 @@ export default {
     <!-- Sidebar  -->
     <nav id="sidebar">
         <div class="sidebar-header">
-            <h3>Manage Users</h3>
+        <h3><router-link to="/admin"><i class="fas fa-chevron-left mt-0 ml-2"></i></router-link>&nbsp;&nbsp;Manage Users</h3>
         <hr class="mt-3 mr-3">
-        <i class="fas fa-chevron-left mt-0 ml-2">&nbsp;&nbsp;</i><router-link to="/admin">Main Menu</router-link>
         </div>
+        
         <div class="users">
         <table class="table table-dark table-striped table-bordered">
-  <thead>
+            <thead>
     <tr>
       <th scope="col">Username</th>
       <th scope="col">Action</th>
@@ -70,6 +70,10 @@ export default {
 			.then(res => res.json())
 			.then(data => this.userList = data)
 			.catch((error) => console.error(error))
+          },
+
+          deleteUser() {
+              // Add handling
           }
     },
     
