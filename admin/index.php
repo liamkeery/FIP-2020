@@ -1,3 +1,8 @@
+<?php 
+    require_once '../load.php';
+    confirm_logged_in();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +31,7 @@
 
 <!-- Main Content -->
 <main id="app">
-  <router-view @authenticated="setAuthenticated"/>
+    <router-view @authenticated="setAuthenticated"/>	
 </main>
 <!-- End of Main Content -->
 
@@ -43,5 +48,3 @@
 
 
 </body>
-
-</html>

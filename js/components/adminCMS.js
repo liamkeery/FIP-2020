@@ -16,23 +16,23 @@ export default {
         </div>
 
         <ul class="list-unstyled components ml-2">
-            <li class="active">
+            <!--<li class="active">
             <a href="#"><span><i class="fas fa-link mod mr-3"></i></span>Modify Navigation</a>
-            </li>
-            <li>
+            </li>-->
+            <!--<li>
                 <a href="#"><i class="fas fa-edit mt-0 mr-3"></i>Edit Content</a>
-            </li>
+            </li>-->
             <li>
-                <a href="#"><i class="fas fa-users-cog mt-0 mr-3"></i>Manage Users</a>
+            <router-link to="/manage"><i class="fas fa-users-cog mt-0 mr-3"></i>Manage Users</router-link>    
             </li>
-            <li>
+            <!--<li>
                 <a href="#"><i class="fas fa-wrench mt-0 mr-3"></i>Edit Site Title</a>
-            </li>
+            </li>-->
         </ul>
         <a class="btn-info" id="sidebarCollapse">
             <i class="fa fa-chevron-left" id="side-toggle"></i>
         </a>
-        <button name="submit" class="btn">Logout<i class="fas fa-sign-out-alt mt-0 ml-2"></i></button>
+        <button name="submit" class="btn" v-on:click="logout()">Logout<i class="fas fa-sign-out-alt mt-0 ml-2"></i></button>
 
     </nav>
     </div>
@@ -46,5 +46,13 @@ export default {
     `,
     components: {
         home: home
+    },
+
+    methods: {
+        logout() {
+            // push user back to login page
+            this.$router.push({ path: "/adminlogin" });
+            this.authenticated = false;
+          }
     }
 }
