@@ -49,15 +49,19 @@ nav.navbar ul li a:hover:after {
   color: white;
   background: #D80000 !important; }
 
-.dropdown-toggle::after {
-  color: white; }
-
 .dropdown-menu {
-  background-color: #2a2a2a !important;
-  border-radius: 10px; }
+  background-color: white !important;
+  border-radius: 10px !important;
+  padding: 5%; }
 
-.fa-caret-down {
-  top: -20%; }
+.dropdown-menu a {
+  color: black !important; }
+
+.dropdown-menu a:hover {
+  color: white !important; }
+
+.dropdown-divider {
+  opacity: .75; }
 
 #splash {
   height: 100vh;
@@ -656,6 +660,14 @@ ul ul a {
   .navbar-nav {
     text-align: center;
     background-color: transparent; }
+
+  .dropdown-menu {
+    background-color: #2a2a2a !important;
+    border-radius: 10px !important;
+    padding: 5%; }
+
+  .dropdown-menu a {
+    color: white !important; }
 
   i {
     margin-top: 50%; }
