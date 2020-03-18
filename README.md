@@ -7,7 +7,7 @@ Client: Regional HIV/AIDS Connection
 * [Gulp]
 
 
-## Author
+## Authors
 * **Syrrel Cabiling** (https://github.com/syrrelCabiling)
 * **Liam Keery** (https://github.com/liamkeery)
 
@@ -26,6 +26,8 @@ Client: Regional HIV/AIDS Connection
 - Youth, 14 to 19
 - Male and Female
 
+## Prerequisite
+- MAMP or WAMP
 
 ## Installation
 Open Terminal on your computer
@@ -34,7 +36,7 @@ Open Terminal on your computer
 
 $ cd Desktop
 
-# Clone this repository to your local machine
+# Clone this repository to your htdocs
 
 $ git clone https://github.com/liamkeery/FIP-2020.git
 

@@ -8,11 +8,14 @@
     i {
         margin-top: 45%;
     }
-    #splash {
-        text-align: center;
-    }
     #splash h1 {
         font-size: 50px;
+    }
+    #splash img {
+        position: absolute;
+        width: 50%;
+        margin: 0 auto;
+        display: inline-block;
     }
     .splash-txt span{
         font-size: 35px;
@@ -80,6 +83,7 @@
 
 
 @media (max-width: 768px) {
+
     
     #sidebar {
         margin-left: -250px;
@@ -109,16 +113,22 @@
     i {
         margin-top: 50%;
     }
-    #splash img {
-        transform: scale(120%);
+    #splash {
+        overflow-x: hidden;
     }
 
-    #splash {
-        background-position: right 35% bottom 45%;
+    #splash img {
+        width: 55%;
+        margin-right: 0px !important;
+        margin-top: 0px !important;
+        top: -1%;
+
     }
+
 
     #splash-bg {
-        margin-left: 10%;
+       margin: auto;
+       margin-left: 5% !important;
     }
 
     #section2 {
