@@ -13,7 +13,7 @@ export default {
             <h6>We can change that.</h6>
             <button class="btn mx-auto mt-5 btn-sec3">FIND A TEST CENTRE</button>
         </div>
-    <img src="./images/cherry.svg" alt="splash" class="sec3-svg col-lg-6 col-lg-offset-6">
+    <img src="./images/watermelon-girl.png" alt="splash" class="sec3-svg col-lg-6 col-lg-offset-6 col-sm-12">
 
     </div>
   </div>
