@@ -39,8 +39,8 @@ export default {
 
     <!-- Splash -->
     <div class="container-fluid d-flex" id="splash">
-        <div class="row d-flex align-self-center float-left" id="splash-bg">
-            <div class="col-lg-12 col-sm-12 text-center  ">
+        <div class="row mx-auto d-flex" id="splash-bg">
+            <div class="col-lg-12 col-sm-12 text-center mx-auto">
               <div class="col-lg-12 text-center">
               <h1 class="display-3"><strong>Open Up To: </strong></h1>
               </div>
@@ -53,8 +53,9 @@ export default {
                       <p class="arrow-down"><i class="arrow down" width="50"></i></p>
                   </a>
             </div>
+            <img src="./images/mouth.svg" alt="splash" class="splash-svg col-lg-offset-6">
         </div>
-        <!-- <img src="./images/mouth.svg" alt="splash" class="splash-svg col-lg-6 col-sm-12"> -->
+         
     </div>
 
     <!-- Section2 -->

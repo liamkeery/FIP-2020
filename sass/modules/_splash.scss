@@ -1,16 +1,24 @@
 #splash {
     height: 100vh;
-    background-image: url(/2020_fip/images/bg.jpg);
     width: 100vw;
     background-color: #eaa4c8;
     min-height: 100vh;
     background-size: cover;
     overflow: hidden;
+    text-align: center !important;
+}
+
+#splash-bg {
+  margin-top: 90%;
+
 }
 
 #splash img {
   background-size: 100% !important;
-  margin-right: -5%;
+  display: block;
+  right: 0px;
+  left: 0px;
+  top: 2%;
 }
 
 #splash h1 {
