@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" width="940" height="1072" viewBox="0 0 940 1072">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <title>watermelon-girl</title>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <image class="cls-1" width="940" height="1072" xlink:href="watermelon-girl1.png"/>
+    <image id="watermelon" class="cls-1" width="547" height="253" transform="translate(199 478)" xlink:href="watermelon-girl2.png"/>
+  </g>
+</svg>

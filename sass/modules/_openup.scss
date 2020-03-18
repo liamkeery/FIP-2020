@@ -1,0 +1,36 @@
+#openup{
+    background-color: #955E99;
+    min-height: 100vh;
+    padding-top: 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+#openup img {
+    height: 60% !important;
+    margin-left: -5% !important;
+}
+
+#openup h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 20%;
+}
+
+#openup h6 {
+    color: #2a2a2a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.arrow-1 i {
+    border: solid #D80000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    position : absolute;
+    margin-top: 20% !important;
+    margin-left: 40%;
+    z-index: 100 !important;
+}

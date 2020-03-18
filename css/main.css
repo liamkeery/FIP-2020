@@ -2,6 +2,13 @@
 .navbar {
   background-color: transparent !important; }
 
+.navbar-nav {
+  background-color: #2a2a2a;
+  text-align: center;
+  background-color: #2a2a2a;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
 .navbar-fixed-top.scrolled {
   background-color: transparent !important;
   transition: background-color 300ms ease; }
@@ -114,6 +121,38 @@ nav.navbar ul li a:hover:after {
     transform: translateY(-10px); }
   100% {
     transform: translateY(0px); } }
+#openup {
+  background-color: #955E99;
+  min-height: 100vh;
+  padding-top: 5%;
+  position: relative;
+  overflow: hidden; }
+
+#openup img {
+  height: 60% !important;
+  margin-left: -5% !important; }
+
+#openup h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 20%; }
+
+#openup h6 {
+  color: #2a2a2a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700; }
+
+.arrow-1 i {
+  border: solid #D80000;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  position: absolute;
+  margin-top: 20% !important;
+  margin-left: 40%;
+  z-index: 100 !important; }
+
 #section2 {
   background-color: #e87a42;
   min-height: 100vh;
@@ -155,11 +194,12 @@ nav.navbar ul li a:hover:after {
   min-height: 100vh;
   height: 100vh;
   padding-bottom: 5%;
-  position: relative; }
+  overflow: hidden !important; }
 
 #section3 img {
-  height: 120%;
-  margin-right: -10% !important; }
+  height: 100%;
+  position: relative;
+  margin-top: 20%; }
 
 #section3 h1 {
   font-size: 60px;
@@ -513,6 +553,9 @@ ul ul a {
   .navbar {
     text-align: center; }
 
+  .nav.navbar {
+    background-color: #2a2a2a; }
+
   i {
     margin-top: 45%; }
 
@@ -600,6 +643,10 @@ ul ul a {
   .navbar {
     background-color: transparent !important; }
 
+  .navbar-nav {
+    text-align: center;
+    background-color: transparent; }
+
   i {
     margin-top: 50%; }
 
@@ -633,6 +680,10 @@ ul ul a {
     font-family: 'Open Sans', sans-serif;
     font-size: 32px; }
 
+  #section3 img {
+    height: 120%;
+    margin-right: -10% !important; }
+
   #section3 h1 {
     font-size: 60px;
     margin-top: 5%; }
@@ -642,6 +693,11 @@ ul ul a {
 
   #section3 span {
     font-size: 32px; }
+
+  #section3 img {
+    height: 100%;
+    margin: auto;
+    position: relative; }
 
   #section4 h1 {
     margin-top: 0%;

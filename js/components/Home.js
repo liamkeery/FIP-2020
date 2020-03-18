@@ -1,3 +1,4 @@
+import openup from "./openup.js"
 import section2 from "./section2.js"
 import section3 from "./section3.js"
 import section4 from "./section4.js"
@@ -23,13 +24,13 @@ export default {
         <!-- Nav Links -->
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item ml-3" id="li-home">
+            <li class="nav-item ml-3 mr-3" id="li-home">
               <a class="nav-link active" href="/">HOME</a>
             </li>
-            <li class="nav-item ml-3">
+            <li class="nav-item ml-3 mr-3">
               <a class="nav-link" href="#section2">ABOUT</a>
             </li>
-            <li class="nav-item ml-3">
+            <li class="nav-item ml-3 mr-3">
                 <a class="nav-link" href="#">CONTACT</a>
             </li>
           </ul>
@@ -57,6 +58,9 @@ export default {
         </div>
          
     </div>
+
+    <!-- OpenUp Section -->
+    <openup></openup>
 
     <!-- Section2 -->
     <section2></section2>
@@ -102,6 +106,7 @@ export default {
       }
   },
     components: {
+        openup: openup,
         section2: section2,
         section3: section3,
         section4: section4,

@@ -4,12 +4,13 @@
     min-height: 100vh;
     height: 100vh;
     padding-bottom: 5%;
-    position: relative;
+    overflow: hidden !important;
 }
 
 #section3 img {
-    height: 120%;
-    margin-right: -10% !important;
+    height: 100%;
+    position: relative;
+    margin-top: 20%;
 }
 
 #section3 h1 {
