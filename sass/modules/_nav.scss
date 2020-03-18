@@ -53,6 +53,16 @@ nav.navbar ul li a {
     background: #D80000 !important;
   }
 
+  .dropdown-toggle::after {
+    color: white;
+}
 
+.dropdown-menu {
+  background-color: #2a2a2a !important;
+  border-radius: 10px;
+}
 
+.fa-caret-down {
+  top: -20%;
+}
   

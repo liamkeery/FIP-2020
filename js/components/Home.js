@@ -28,11 +28,39 @@ export default {
               <a class="nav-link active" href="/">HOME</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-              <a class="nav-link" href="#section2">ABOUT</a>
+              <a class="nav-link active" href="#">#OPENUP</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown ml-3 mr-3">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+                <i class="fas fa-caret-down"></i>
+              </a>
+              <span class="sr-only">Toggle Dropdown</span>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item"  href="#section2">So It's Your First Time?</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Did You Know?</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Lets Talk About Sex, Baby</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/">End The Stigma</a>
+              </div>
+            </li>
+
+            <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="/">Who we are</a>
+          </li>
+            <li class="nav-item ml-3 mr-3">
+                <a class="nav-link" href="#">FAQ</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#">Merch</a>
             </li>
+            <li class="nav-item ml-3 mr-3">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
           </ul>
         </div>
       </nav>

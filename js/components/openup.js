@@ -13,7 +13,7 @@ export default {
             <p>The stigma surrounding HIV/AIDS is capable of changing, but not without your help. It is important to start conversation, but we know it can be hard, so we’re here to help. Here are some tips on how to open up to parents, friends and partners.</p>
             
             <button class="btn mx-auto mt-5">LEARN MORE</button>
-            <a class="mt-0 arrow3" href="#section3">
+            <a class="mt-0 arrow-1" href="#section3">
             <p class="arrow-down"><i class="arrow down " width="50"></i></p>
             </a>
         </div> 
