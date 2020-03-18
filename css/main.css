@@ -49,6 +49,16 @@ nav.navbar ul li a:hover:after {
   color: white;
   background: #D80000 !important; }
 
+.dropdown-toggle::after {
+  color: white; }
+
+.dropdown-menu {
+  background-color: #2a2a2a !important;
+  border-radius: 10px; }
+
+.fa-caret-down {
+  top: -20%; }
+
 #splash {
   height: 100vh;
   width: 100vw;
