@@ -118,6 +118,15 @@
         text-align: center;
         background-color: transparent;
     }
+    .dropdown-menu {
+        background-color: #2a2a2a !important;
+        border-radius: 10px !important;
+        padding: 5%;
+      }
+    .dropdown-menu a {
+        color: white !important;
+    }
+
     i {
         margin-top: 50%;
     }
