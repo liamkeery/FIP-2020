@@ -26,13 +26,17 @@ body {
     background-color: white;
 }
 
-body p, a {
+body p, a, h2, h3, h4, h6 {
   font-family: 'Open Sans', sans-serif;
 
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-weight: bold !important;
 }
 
 a {
