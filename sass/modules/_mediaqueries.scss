@@ -1,4 +1,9 @@
 @media (min-width: 375px) {
+
+      #splash-bg {
+        margin-top: 110% !important;
+      
+      }
     .navbar {
         background-color: none !important;
     }
@@ -8,9 +13,8 @@
     .nav.navbar {
         background-color: #2a2a2a;
     }
-
-    i {
-        margin-top: 45%;
+    .nav-link i {
+        margin-top: 5% !important;
     }
     #splash h1 {
         font-size: 50px;
@@ -86,8 +90,26 @@
 
 
 
-@media (max-width: 768px) {
-
+@media (min-width: 768px) {
+    #splash-bg{
+        margin-top: 60% !important;
+        bottom: 0;
+    }
+    .nav-link i {
+        margin-top: 10% !important;
+    }
+    #splash img {
+        width: 35% !important;
+        margin-bottom: 20px;
+        background-size: 100% !important;
+        display: block;
+        right: 0px;
+        left: 0px;
+        top: 2%;
+      }
+    #openup img {
+        width: 70%;
+    }
     
     #sidebar {
         margin-left: -250px;
@@ -127,27 +149,40 @@
         color: white !important;
     }
 
-    i {
-        margin-top: 50%;
+    .nav-link i {
+        margin-top: 60% !important;
     }
     #splash {
         overflow-x: hidden;
     }
 
     #splash img {
-        width: 55%;
-        margin-right: 0px !important;
+        width: 50% !important;
+        margin-right: -5% !important;
         margin-top: 0px !important;
         top: -1%;
 
     }
-
-
     #splash-bg {
-       margin: auto;
-       margin-left: 5% !important;
+        margin-top: 20% !important;
+       margin-left: 10% !important;
+    }
+    #openup img {
+        width: 100%;
+        float: right;
+        margin-right: 0px;
     }
 
+    .arrow-1 i {
+
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 6px;
+        position : absolute;
+        margin-top: 20% !important;
+        margin-left: 40%;
+        z-index: 100 !important;
+    }
     #section2 {
         height: 100vh;
     }
