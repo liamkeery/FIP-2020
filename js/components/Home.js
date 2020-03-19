@@ -1,4 +1,5 @@
 import openup from "./openup.js"
+import openup_slideshow from "./openup_slideshow.js"
 import section2 from "./section2.js"
 import section3 from "./section3.js"
 import section4 from "./section4.js"
@@ -28,7 +29,7 @@ export default {
               <a class="nav-link active" href="/">HOME</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-              <a class="nav-link active" href="#">#OPENUP</a>
+              <a class="nav-link" href="#openup">#OPENUP</a>
             </li>
 
             <!-- Dropdown -->
@@ -39,11 +40,11 @@ export default {
            
 
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item"  href="#section2">So It's Your First Time?</a>
+                <a class="dropdown-item"  href="#section2">About AIDS/HIV</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Did You Know?</a>
+                <a class="dropdown-item" href="#">Find a Resource Centre</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Lets Talk About Sex, Baby</a>
+                <a class="dropdown-item" href="#">Safer Sex Practices</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/">End The Stigma</a>
               </div>
@@ -69,7 +70,7 @@ export default {
     <!-- Splash -->
     <div class="container-fluid d-flex" id="splash">
         <div class="row mx-auto d-flex" id="splash-bg">
-            <div class="col-lg-12 col-sm-12 text-center mx-auto">
+            <div class="col-lg-12 col-sm-12 text-center mx-auto ipad">
               <div class="col-lg-12 text-center">
               <h1 class="display-3"><strong>Open Up To: </strong></h1>
               </div>
@@ -78,7 +79,7 @@ export default {
                     <span class="type-cursor display-4">|</span>
                 </div>
                 <button class="btn mx-auto mt-5">#OPENUP</button>
-                <a class="nav-link" href="#section2">
+                <a class="nav-link" href="#openup">
                       <p class="arrow-down"><i class="arrow down" width="50"></i></p>
                   </a>
             </div>
@@ -135,6 +136,7 @@ export default {
   },
     components: {
         openup: openup,
+        openup_slideshow: openup_slideshow,
         section2: section2,
         section3: section3,
         section4: section4,

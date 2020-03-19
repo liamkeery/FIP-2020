@@ -1,10 +1,8 @@
-// // //Define a new component called section2
-
 import home from "./home.js"
 
 export default {
     template: `  
-    <section class="container-fluid" id="openup">
+    <section class="container-fluid" id="openup_slideshow">
     <div class="row mx-auto text-center">
         <div class="col-lg-6 col-sm-12 mt-0">
             <h1 class="mb-4">#OPENUP</h1>

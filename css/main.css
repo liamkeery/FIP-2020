@@ -52,7 +52,8 @@ nav.navbar ul li a:hover:after {
 .dropdown-menu {
   background-color: white !important;
   border-radius: 10px !important;
-  padding: 5%; }
+  padding: 5%;
+  transition: all 0.4s ease 0s !important; }
 
 .dropdown-menu a {
   color: black !important; }
@@ -73,10 +74,10 @@ nav.navbar ul li a:hover:after {
   text-align: center !important; }
 
 #splash-bg {
-  margin-top: 90%; }
+  margin-top: -110% !important; }
 
 #splash img {
-  background-size: 100% !important;
+  width: 60%;
   display: block;
   right: 0px;
   left: 0px;
@@ -106,7 +107,14 @@ nav.navbar ul li a:hover:after {
   text-align: right;
   text-decoration: none;
   display: block;
-  font-size: 1.2rem !important; }
+  font-size: 1.2rem !important;
+  transition: .2s transform ease-in-out; }
+
+.btn:hover {
+  color: red !important;
+  background-color: white !important;
+  border-color: white !important;
+  transition: all 0.4s ease 0s; }
 
 .nav-link i {
   border: solid #D80000;
@@ -114,7 +122,7 @@ nav.navbar ul li a:hover:after {
   display: inline-block;
   padding: 6px;
   position: absolute;
-  margin-top: 40% !important; }
+  margin-top: 20% !important; }
 
 .down {
   transform: rotate(45deg);
@@ -143,13 +151,17 @@ nav.navbar ul li a:hover:after {
   overflow: hidden; }
 
 #openup img {
-  height: 60% !important;
-  margin-left: -5% !important; }
+  width: 100%;
+  margin-bottom: 0px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1; }
 
 #openup h1 {
   color: white;
   font-size: 60px;
-  margin-top: 20%; }
+  margin-top: 10%; }
 
 #openup h6 {
   color: #2a2a2a;
@@ -158,14 +170,22 @@ nav.navbar ul li a:hover:after {
   font-weight: 700; }
 
 .arrow-1 i {
-  border: solid #D80000;
+  border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
-  position: absolute;
-  margin-top: 20% !important;
-  margin-left: 40%;
-  z-index: 100 !important; }
+  position: relative;
+  margin-top: 10% !important;
+  margin-right: 0;
+  margin-left: 0px !important; }
+
+#open_slideshow {
+  background-color: #ACEFBD;
+  min-height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+  overflow: hidden; }
 
 #section2 {
   background-color: #e87a42;
@@ -561,6 +581,9 @@ ul ul a {
   transition: all 0.3s; }
 
 @media (min-width: 375px) {
+  #splash-bg {
+    margin-top: 110% !important; }
+
   .navbar {
     background-color: none !important; }
 
@@ -570,8 +593,8 @@ ul ul a {
   .nav.navbar {
     background-color: #2a2a2a; }
 
-  i {
-    margin-top: 45%; }
+  .nav-link i {
+    margin-top: 5% !important; }
 
   #splash h1 {
     font-size: 50px; }
@@ -638,7 +661,26 @@ ul ul a {
 
   .cred {
     margin-top: 20%; } }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  #splash-bg {
+    margin-top: 60% !important;
+    bottom: 0; }
+
+  .nav-link i {
+    margin-top: 10% !important; }
+
+  #splash img {
+    width: 35% !important;
+    margin-bottom: 20px;
+    background-size: 100% !important;
+    display: block;
+    right: 0px;
+    left: 0px;
+    top: 2%; }
+
+  #openup img {
+    width: 70%; }
+
   #sidebar {
     margin-left: -250px; }
 
@@ -669,21 +711,35 @@ ul ul a {
   .dropdown-menu a {
     color: white !important; }
 
-  i {
-    margin-top: 50%; }
+  .nav-link i {
+    margin-top: 60% !important; }
 
   #splash {
     overflow-x: hidden; }
 
   #splash img {
-    width: 55%;
-    margin-right: 0px !important;
+    width: 50% !important;
+    margin-right: -5% !important;
     margin-top: 0px !important;
     top: -1%; }
 
   #splash-bg {
-    margin: auto;
-    margin-left: 5% !important; }
+    margin-top: 20% !important;
+    margin-left: 10% !important; }
+
+  #openup img {
+    width: 100%;
+    float: right;
+    margin-right: 0px; }
+
+  .arrow-1 i {
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    position: absolute;
+    margin-top: 20% !important;
+    margin-left: 40%;
+    z-index: 100 !important; }
 
   #section2 {
     height: 100vh; }

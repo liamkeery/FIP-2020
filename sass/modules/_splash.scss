@@ -9,12 +9,11 @@
 }
 
 #splash-bg {
-  margin-top: 90%;
-
+  margin-top: -110% !important;
 }
 
 #splash img {
-  background-size: 100% !important;
+  width: 60%;
   display: block;
   right: 0px;
   left: 0px;
@@ -52,17 +51,21 @@
     text-decoration: none;
     display: block;
     font-size: 1.2rem !important;
-
-
+    transition: .2s transform ease-in-out;
 }
-
+.btn:hover {
+  color: red !important;
+  background-color: white !important;
+  border-color: white !important;
+  transition: all 0.4s ease 0s;
+}
 .nav-link i {
     border: solid #D80000;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 6px;
     position : absolute;
-    margin-top: 40% !important;
+    margin-top: 20% !important;
 
 
   }
