@@ -78,7 +78,7 @@ export default {
                     <span class="display-4" id="demo"></span>
                     <span class="type-cursor display-4">|</span>
                 </div>
-                <button class="btn mx-auto mt-5">#OPENUP</button>
+                <a href="#openup"> <button class="btn mx-auto mt-5">#OPENUP</button></a>
                 <a class="nav-link" href="#openup">
                       <p class="arrow-down"><i class="arrow down" width="50"></i></p>
                   </a>
@@ -90,6 +90,9 @@ export default {
 
     <!-- OpenUp Section -->
     <openup></openup>
+
+    <!-- OpenUp Slideshow -->
+    <openup_slideshow></openup_slideshow>
 
     <!-- Section2 -->
     <section2></section2>

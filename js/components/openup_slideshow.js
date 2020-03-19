@@ -3,23 +3,73 @@ import home from "./home.js"
 export default {
     template: `  
     <section class="container-fluid" id="openup_slideshow">
-    <div class="row mx-auto text-center">
-        <div class="col-lg-6 col-sm-12 mt-0">
-            <h1 class="mb-4">#OPENUP</h1>
-            <h6>Now is the time to get talking.</h6>
-            <p>The stigma surrounding HIV/AIDS is capable of changing, but not without your help. It is important to start conversation, but we know it can be hard, so we’re here to help. Here are some tips on how to open up to parents, friends and partners.</p>
-            
-            <button class="btn mx-auto mt-3">LEARN MORE</button>
-            <a class="mt-0 arrow-1" href="#section2">
-            <p class="arrow-down"><i class="arrow down " width="50"></i></p>
-            </a>
-        </div> 
-        <div class="col-lg-6 col-lg-offset-6">
-            <img src="./images/loli-guy.png" alt="splash" class="sec2-svg text-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+    <h3 class="mb-2">Here are some tips on how to open up to <strong>parents, friends and partners</strong></h3>
+      <!-- Slide One -->
+      <div class="carousel-item slide-1 active mt-2">
+      <h3>Parents</h3>
+        <div class="slide-img mb-2">
+            <img src="./images/parent.png" alt="Parent">
         </div>
+          <p>Our parents are older than us. They lived through a time when AIDS was something new to the world that shocked everyone and instilled fear in a lot of individuals. However, a lot has changed since AIDS was first discovered and it is something people can live a normal life with. </p>
+          <h6>Here are some questions to get you started:</h6>
+          <ul>
+            <li class="align-left">What do you know about AIDS?</li>
+            <li>How did you react when AIDS was first discovered?</li>
+            <li>Do you know how the process of treating AIDS has changed?</li>
+          </ul>
+        
+      </div>
+      <!-- Slide Two -->
+      <div class="carousel-item slide-2">
+      <h3>Friends</h3>
+      <div class="slide-img mb-2">
+            <img src="./images/friends.png" alt="Parent">
+        </div>
+          <p>Our friends are our support system through anything. And a lot of the time, they have the same questions you do. Talking about AIDS/HIV with our friends gets the conversation going to create trust and learn more together. So if you or someone you know is living with AIDS/HIV, you have someone to turn to. </p>
+          <h6>Here are some questions to get you started:</h6>
+          <ul>
+            <li>Have you heard about HIV/AIDS?</li>
+            <li>What do you know about it?</li>
+            <li>Do you know anyone living with HIV/AIDS?</li>
+            <li>Do you think it’s important to be concerned about HIV/AIDS when sexually active?</li>
+
+          </ul>
+      </div>
+      <!-- Slide Three -->
+      <div class="carousel-item slide-3">
+      <h3>Partners</h3>
+      <div class="slide-img mb-2">
+            <img src="./images/couple.png" alt="Parent">
+        </div>
+          <p>Our partners are the ones who we are intimate with. So talking about HIV/AIDS in terms of sex is important to keep you both safe. Whatever the relationship, it is important to be able to have conversations. </p>
+          <h6>Here are some questions to get you started:</h6>
+          <ul>
+            <li>Have you been tested recently?</li>
+            <li>What do you know about it?</li>
+            <li>Do you know anyone living with HIV/AIDS?</li>
+            <li>Do you think it’s important to be concerned about HIV/AIDS when sexually active?</li>
+          </ul>
+      </div>
     </div>
-    
-    
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</div>  
   </section>
     `,
     data: function() {

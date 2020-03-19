@@ -93,3 +93,20 @@ form h6 {
 .nav-back a {
     cursor: pointer;
 }
+.btn-login {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border: none;
+    border-radius: 25px !important;
+    padding: 10px 30px !important;
+    text-align: right;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 1.2rem !important;
+    transition: .2s transform ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #d80000 !important;
+    color: white;
+}

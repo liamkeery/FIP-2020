@@ -24,7 +24,7 @@ export default {
                             <br>
                             <input v-model="input.password" type="password" name="password" value="" id="password" class="form-control mb-3" placeholder="PASSWORD">
     
-                            <button v-on:click.prevent="login()" name="submit" class="btn-lg btn mt-4">Login</button>
+                            <button v-on:click.prevent="login()" name="submit" class="btn-lg btn-login mt-4">Login</button>
                         </div>
                     </form>
                 </div>
