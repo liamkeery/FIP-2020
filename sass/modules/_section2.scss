@@ -9,7 +9,7 @@
 #section2 img {
         margin-top: -30%;
         height: 40% !important;
-        margin-left: -5% !important;
+        margin: 0 auto;
 }
 
 #section2 h1 {
@@ -23,16 +23,19 @@
 
 #section2 p {
     color: #2a2a2a;
-    font-size: 32px;
+
 }
 
+// #section button {
+
+// }
+
 .arrow2 i {
-    border: solid #D80000;
+    color: white !important;
     border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 6px;
-    position : absolute;
-    margin-top: 50% !important;
-    margin-left: 40%;
-    z-index: 100 !important;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 500;
+    margin-bottom: 20%;
 }

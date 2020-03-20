@@ -13,7 +13,7 @@ export default {
             
             <a href="#openup_slideshow"> <button class="btn mx-auto mt-3">LEARN MORE</button></a>
             <a class="mt-0 arrow-1" href="#openup_slideshow">
-            <p class="arrow-down"><i class="arrow down " width="50"></i></p>
+            <p class="arrow-down"><i class="fas fa-chevron-down"></i></p>
             </a>
         </div> 
         <div class="col-lg-6 col-lg-offset-6">
