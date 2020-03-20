@@ -433,18 +433,12 @@ b {
 #section4 {
   background-color: #4bc9f5;
   min-height: 100vh;
-  padding-top: 5%;
-  padding-bottom: 5%;
   position: relative; }
-
-.sec4-svg {
-  margin-top: -5%;
-  height: 120%;
-  margin-left: -5% !important; }
 
 #section4 h1 {
   color: white;
-  font-size: 60px; }
+  font-size: 60px;
+  margin-top: 20%; }
 
 #section4 h4 {
   font-size: 32px;
@@ -455,7 +449,28 @@ b {
   font-size: 16px; }
 
 #section4 span {
-  color: #D80000; }
+  color: white; }
+
+.sec4-img {
+  width: 50%;
+  margin-right: 20%; }
+
+.sec4-svg {
+  margin-bottom: 0px;
+  margin-top: 60% !important;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1; }
+
+.arrow4 i {
+  color: white !important;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 500;
+  margin-top: 20% !important; }
 
 #aboutUs {
   background-color: #955e99;
@@ -932,7 +947,17 @@ ul ul a {
     position: absolute;
     margin: 0 auto;
     z-index: 500;
-    margin-top: 30%; } }
+    margin-top: 30%; }
+
+  .sec4-img {
+    width: 30%; }
+
+  .sec4-svg {
+    width: 70% !important;
+    margin: 0 auto; }
+
+  .arrow4 i {
+    margin-top: 10% !important; } }
 @media (min-width: 992px) {
   .navbar {
     background-color: transparent !important; }
@@ -1022,11 +1047,21 @@ ul ul a {
     float: left; }
 
   #section4 h1 {
-    margin-top: 0%;
+    margin-top: 20%;
     font-size: 60px; }
 
   #section4 h4 {
     font-size: 32px; }
+
+  .sec4-img {
+    width: 100%; }
+
+  .sec4-svg {
+    width: 70% !important;
+    margin: 0 auto; }
+
+  .arrow4 i {
+    margin-top: 10% !important; }
 
   #aboutUs h1 {
     font-size: 60px;

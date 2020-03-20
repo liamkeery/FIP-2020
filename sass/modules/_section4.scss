@@ -1,20 +1,16 @@
 #section4 {
     background-color: #4bc9f5; //try
     min-height: 100vh;
-    padding-top: 5%;
-    padding-bottom: 5%;
     position: relative;
 }
-
-.sec4-svg {
-    margin-top: -5%;
-        height: 120%;
-        margin-left: -5% !important;
-}
+// .first {
+//     margin-bottom: 20px;
+// }
 
 #section4 h1 {
     color: white;
     font-size: 60px;
+    margin-top: 20%;
 }
 
 #section4 h4 {
@@ -29,6 +25,30 @@
 }
 
 #section4 span {
-    color: #D80000;
+    color: white;
 
+}
+
+.sec4-img {
+    width: 50%;
+    margin-right: 20%;
+}
+
+.sec4-svg {
+    margin-bottom: 0px;
+    margin-top: 60% !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.arrow4 i {
+    color: white !important;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 500;
+    margin-top: 20% !important;
 }
