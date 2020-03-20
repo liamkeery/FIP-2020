@@ -1,6 +1,7 @@
 import openup from "./openup.js"
 import openup_slideshow from "./openup_slideshow.js"
 import section2 from "./section2.js"
+import timeline from "./timeline.js"
 import section3 from "./section3.js"
 import section4 from "./section4.js"
 import aboutUs from "./aboutUs.js"
@@ -97,6 +98,9 @@ export default {
     <!-- Section2 -->
     <section2></section2>
 
+    <!-- Timeline -->
+    <timeline></timeline>
+
     <!-- Section3 -->
     <section3></section3>
 
@@ -141,6 +145,7 @@ export default {
         openup: openup,
         openup_slideshow: openup_slideshow,
         section2: section2,
+        timeline:timeline,
         section3: section3,
         section4: section4,
         aboutUs: aboutUs,
