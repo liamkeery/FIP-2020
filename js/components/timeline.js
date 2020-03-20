@@ -59,35 +59,26 @@ export default {
                         </ul>
                     </li>
 
-                    <!-- FOURTH ITEM -->
+                <!-- FIFTH ITEM -->
                     <li class="timeline-item bg-item-blue rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-blue"></div>
                         <img src="./images/canada.png" class="mb-3">
                         <img src="./images/ok.png" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2">2016</h2>
                         <p class="text-small mt-2 font-weight-light">Canada approves the use of PrEP.</p>
-                        </ul>
                     </li>
 
-                    <!-- FOURTH ITEM -->
-                    <li class="timeline-item bg-item-blue rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow-blue"></div>
-                        <img src="./images/canada.png" class="mb-3">
-                        <img src="./images/ok.png" class="mb-3 mr-3">
-                        <h2 class="h5 mb-0 mt-2">2016</h2>
-                        <p class="text-small mt-2 font-weight-light">Canada approves the use of PrEP.</p>
-                        </ul>
+                <!-- SIXTH ITEM -->
+                    <li class="timeline-item bg-gray rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow-gray"></div>
+                        <img src="./images/hospital.png" class="mb-3">
+                        <img src="./images/guys.svg" class="mb-3 mr-3">
+                        <h2 class="h5 mb-0 mt-2">2017</h2>
+                        <p class="text-small mt-2 font-weight-light"><b>UNDETECTABLE = UNTRANSMITTABLE (U=U)</b> support from Canadian government which decriminalizes the non-disclosure of someone living with HIV as long as his or her viral load was suppressed for at least 6 months before incident.</p>
+                        <p>An HIV-positive person taking treatment daily can reduce the virus in their body to such low amounts that it can’t be passed on sexually (untransmittable). This is called being undetectable. </p>
                     </li>
-
-                    <!-- FOURTH ITEM -->
-                    <li class="timeline-item bg-item-blue rounded ml-3 p-4 shadow">
-                        <div class="timeline-arrow-blue"></div>
-                        <img src="./images/canada.png" class="mb-3">
-                        <img src="./images/ok.png" class="mb-3 mr-3">
-                        <h2 class="h5 mb-0 mt-2">2016</h2>
-                        <p class="text-small mt-2 font-weight-light">Canada approves the use of PrEP.</p>
-                        </ul>
-                    </li>
+                 
+                 
 
 
    

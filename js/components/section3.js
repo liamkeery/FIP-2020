@@ -7,14 +7,16 @@ export default {
     <section>
     <div class="container-fluid" id="section3">
     <div class="row mx-auto text-center">
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-5 col-sm-12">
             <h1 class="mb-4">Did You Know?</h1>
-            <p><span>14% </span>of Canadians are unaware of their HIV status.</p>
-            <h6>We can change that.</h6>
+            <p><b>14% </b>of Canadians are unaware of their HIV status.</p>
+            <h4>We can change that.</h4>
             <button class="btn mx-auto mt-5 btn-sec3">FIND A TEST CENTRE</button>
+            <img src="./images/14people.png" alt="14 People" class="d-lg-none d-md-none">
+            <a class=" arrow3" href="#section4">
+                <p class="arrow-down"><i class="fas fa-chevron-down"></i></p>
+            </a>
         </div>
-    <img src="./images/watermelon-girl.png" alt="splash" class="sec3-svg col-lg-6 col-lg-offset-6 col-sm-12">
-
     </div>
   </div>
   </section>

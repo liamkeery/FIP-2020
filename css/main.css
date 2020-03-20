@@ -305,7 +305,8 @@ b {
   background-color: #A1F5B9; }
 
 #timeline h1 {
-  color: white; }
+  color: white;
+  font-size: 30px; }
 
 #timeline h2, span {
   color: #2a2a2a; }
@@ -384,25 +385,28 @@ li.timeline-item::before {
 .bg-gray {
   background-color: #b5b5b5 !important; }
 
+b {
+  font-weight: bold; }
+
 #section3 {
   padding-top: 5%;
-  background-color: #cd202e;
+  background: url("/FIP-2020/images/diduknow.png") !important;
+  background-repeat: no-repeat;
   min-height: 100vh;
   height: 100vh;
   padding-bottom: 5%;
   overflow: hidden !important; }
 
 #section3 img {
-  height: 100%;
+  height: 12%;
   position: relative;
   margin-top: 20%; }
 
 #section3 h1 {
   font-size: 60px;
-  color: white; }
+  color: black; }
 
 #section3 p, h6 {
-  font-size: 32px;
   color: white;
   font-family: 'Open Sans', sans-serif; }
 
@@ -411,7 +415,20 @@ li.timeline-item::before {
   font-size: 40px; }
 
 .btn-sec3 {
-  background-color: #e87a42 !important; }
+  background-color: #D80000 !important; }
+
+.btn-sec3:hover {
+  background-color: #F1933B !important;
+  color: white !important; }
+
+.arrow3 i {
+  color: black !important;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 500;
+  margin-top: 60%; }
 
 #section4 {
   background-color: #4bc9f5;
@@ -794,6 +811,9 @@ ul ul a {
     font-size: 30px;
     margin-top: 20%; }
 
+  #section2 img {
+    margin-top: -35%; }
+
   #section3 h1 {
     font-size: 30px;
     margin-top: 20%; }
@@ -900,7 +920,19 @@ ul ul a {
     margin-top: 5%; }
 
   .arrow2 i {
-    margin-top: 2%; } }
+    margin-top: 2%; }
+
+  #section3 h1 {
+    font-size: 2.5rem; }
+
+  .arrow3 i {
+    color: black !important;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 500;
+    margin-top: 30%; } }
 @media (min-width: 992px) {
   .navbar {
     background-color: transparent !important; }
@@ -955,7 +987,7 @@ ul ul a {
 
   .carousel-inner {
     margin: 0 auto;
-    width: 60% !important; }
+    width: 40% !important; }
 
   #section2 {
     height: 100vh; }
@@ -979,16 +1011,15 @@ ul ul a {
     font-size: 60px;
     margin-top: 5%; }
 
-  #section3 p {
-    font-size: 32px; }
-
   #section3 span {
     font-size: 32px; }
 
-  #section3 img {
-    height: 100%;
-    margin: auto;
-    position: relative; }
+  .arrow3 i {
+    margin-top: 50%; }
+
+  #timeline img {
+    width: 8%;
+    float: left; }
 
   #section4 h1 {
     margin-top: 0%;

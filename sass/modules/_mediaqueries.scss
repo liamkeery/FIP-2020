@@ -35,6 +35,9 @@
         font-size: 30px;
         margin-top: 20%;
     }
+    #section2 img {
+        margin-top: -35%;
+}
     #section3 h1 {
         font-size: 30px;
         margin-top: 20%;
@@ -153,6 +156,18 @@
     .arrow2 i {
         margin-top: 2%;
     }
+    #section3 h1 {
+        font-size: 2.5rem;
+    }
+    .arrow3 i {
+        color: black !important;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 500;
+        margin-top: 30%;
+    }
 
     
   }
@@ -219,7 +234,7 @@
     }
     .carousel-inner {
         margin: 0 auto;
-        width: 60% !important;
+        width: 40% !important;
     }
 
     #section2 {
@@ -244,19 +259,17 @@
         font-size: 60px;
         margin-top: 5%;
     }
-    #section3 p {
-        font-size: 32px;
-
-    }
     #section3 span {
         font-size: 32px;
 
     }
+    .arrow3 i {
+        margin-top: 50%;
+    }
 
-    #section3 img {
-        height: 100%;
-        margin: auto;
-        position: relative;
+    #timeline img {
+        width: 8%;
+        float: left;
     }
     
     #section4 h1 {
