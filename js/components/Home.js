@@ -10,6 +10,7 @@ import testimonials from "./testimonials.js"
 import aboutUs from "./aboutUs.js"
 import faq from "./faq.js"
 import submit_form from "./submit_form.js"
+import merch from "./merch.js"
 import adminlogin from "./adminlogin.js"
 
 //import adminCMS from "./adminCMS.js"
@@ -48,25 +49,25 @@ export default {
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item"  href="#section2">About AIDS/HIV</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Find a Resource Centre</a>
+                <a class="dropdown-item" href="#section3">Find a Resource Centre</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Safer Sex Practices</a>
+                <a class="dropdown-item" href="#section4">Safer Sex Practices</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/">End The Stigma</a>
+                <a class="dropdown-item" href="#endstigma">End The Stigma</a>
               </div>
             </li>
 
             <li class="nav-item ml-3 mr-3">
-            <a class="nav-link" href="/">Who we are</a>
+            <a class="nav-link" href="#aboutUs">Who we are</a>
           </li>
             <li class="nav-item ml-3 mr-3">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#faq">FAQ</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-                <a class="nav-link" href="#">Merch</a>
+                <a class="nav-link" href="#merch">Merch</a>
             </li>
             <li class="nav-item ml-3 mr-3">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#footer">Contact</a>
         </li>
           </ul>
         </div>
@@ -130,27 +131,72 @@ export default {
     <!-- Submission Form -->
     <submit_form></submit_form>
 
-
+    <!-- Merch -->
+    <merch></merch>
 
 <!-- Main Footer -->
-    <footer class="container-fluid">
-    <div class="row text-center mx-auto">
-      <div class="col">
-         <img src="./images/logo-final.png" alt="Logo" class="mt-5">
-         <h4 class="mt-2">#OPENUP</h4>
-         <p class="mt-4 mb-5">Created in partnership with <a href="https://hivaidsconnection.ca/">Regional HIV&#47;AIDS Connection.</a></p>
-         <p class="mt-5 mb-5"><router-link to="/adminlogin">Admin Login</router-link></p>
-      </div>
-     </div>
-  </footer>
-
-  <!-- Secondary Footer -->
-  <div class="container-fluid sec-footer">
- <div class="row text-center mx-auto">
-   <div class="col">
-     <p>Copyright © 2020 Open Up. All Rights Reserved.</p>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="./images/logo-final.png" alt="Logo" class="mt-5">
+                <h4 class="mt-2">#OPENUP</h4>
+                <p class="mt-5 mb-5"><router-link to="/adminlogin">Admin Login</router-link></p>
+                <div class="row">
+                    <div class="col-6 nav-col">
+                        <ul class="list-unstyled">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="#openup">#OPENUP</a></li>
+                            <li><a href="#section2">ABOUT HIV/AIDS</a></li>
+                            <li><a href="#section3">FIND A RESOURCE CENTRE</a></li>
+                            <li><a href="#section4">SAFER SEX PRACTICES</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-6 nav-col">
+                        <ul class="list-unstyled">
+                            <li><a href="#endstigma">END THE STIGMA</a></li>
+                            <li><a href="#aboutUs">WHO WE ARE</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#merch">MERCH</a></li>
+                            <li><a href="#footer">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="" class="pl-0"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="nav-item"><a href="" class="pl-3"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <p class="mt-4 mb-5">Created in partnership with <b><a href="https://hivaidsconnection.ca/">Regional HIV&#47;AIDS Connection.</a></b></p>
+                <br>
+            </div>
+            <div class="col-md-2 footer-form">
+                <h5 class="text-md-right">Contact Us</h5>
+                <hr>
+            </div>
+            <div class="col-md-5 footer-form">
+                <form>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control" id="footer_email" placeholder="Enter email">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="footer_msg" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group text-xs-right">
+                        <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </div>
- </div>
+</footer>
+<!-- Secondary Footer -->
+<div class="container-fluid sec-footer">
+<div class="row text-center mx-auto">
+ <div class="col">
+   <p>Copyright © 2020 Open Up. All Rights Reserved.</p>
+  </div>
+</div>
 </div>
 
     </section>
@@ -174,6 +220,7 @@ export default {
         aboutUs: aboutUs,
         faq: faq,
         submit_form: submit_form,
+        merch: merch,
         adminlogin: adminlogin
     }
 }

@@ -1,10 +1,9 @@
 footer {
-    background-color: #2a2a2a;
-    min-height: 40vh;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
     padding-top: 30px;
-}
+    background-color: #2a2a2a;
+    color: #bbb;
+    font-family: 'Open Sans', sans-serif;
+  }
 
 footer img {
     width: 15%;
@@ -13,10 +12,49 @@ footer img {
 footer h4 {
     font-weight: regular!important;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
-.sec-footer {
+footer ul li {
+    color: #bbb !important;
+}
+
+footer i {
+    color: white;
+}
+
+
+  footer p{
+      color: #999 !important;
+  }
+  
+  footer a{
+    color: #999 !important;
+}
+
+footer i{
+    color: #999 !important;
+}
+  .nav-col {
+      color: #bbb;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #1f2022;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+
+  .sec-footer {
     background-color: #d80000;
     color: white;
     padding-top: 10px;

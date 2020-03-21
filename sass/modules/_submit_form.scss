@@ -18,9 +18,10 @@
 .submit_header {
     width: 100vw;
     background-color: #e87a42;
-    margin-top: -15%;
-    margin-right: -20%;
-    margin-left: -5%;
+    margin-top: -17%;
+    margin-right: -15px ;
+    margin-left: -15px;
+    padding-top: 5%;
     overflow: hidden;
     position: relative;
 }
@@ -42,4 +43,20 @@
 #submit_form label {
     color: #2a2a2a;
     text-align: left !important;
+}
+
+#submit_form input{
+    border-radius: 10px;
+
+}
+
+#submit_form textarea{
+    border-radius: 10px !important;
+}
+
+#submit_form textarea:focus, #submit_form input:focus {   
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+
 }
