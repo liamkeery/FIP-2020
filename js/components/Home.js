@@ -4,7 +4,12 @@ import section2 from "./section2.js"
 import timeline from "./timeline.js"
 import section3 from "./section3.js"
 import section4 from "./section4.js"
+import hows from "./hows.js"
+import endstigma from "./endstigma.js"
+import testimonials from "./testimonials.js"
 import aboutUs from "./aboutUs.js"
+import faq from "./faq.js"
+import submit_form from "./submit_form.js"
 import adminlogin from "./adminlogin.js"
 
 //import adminCMS from "./adminCMS.js"
@@ -107,8 +112,23 @@ export default {
     <!-- Section4 -->
     <section4></section4>
     
+    <!-- How Section: Continuation of Sec 4 -->
+    <hows></hows>
+
+    <!-- End the Stigma -->
+    <endstigma></endstigma>
+
+    <!-- Testimonials -->
+    <testimonials></testimonials>
+
     <!-- About Us -->
     <aboutUs></aboutUs>
+
+    <!-- FAQ -->
+    <faq></faq>
+
+    <!-- Submission Form -->
+    <submit_form></submit_form>
 
 
 
@@ -148,7 +168,12 @@ export default {
         timeline:timeline,
         section3: section3,
         section4: section4,
+        hows: hows,
+        endstigma: endstigma,
+        testimonials: testimonials,
         aboutUs: aboutUs,
+        faq: faq,
+        submit_form: submit_form,
         adminlogin: adminlogin
     }
 }

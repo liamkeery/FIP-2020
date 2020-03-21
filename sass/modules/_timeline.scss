@@ -6,7 +6,7 @@ b {
 }
 
 #timeline h1 {
-    color:white;
+    color:#2a2a2a;
     font-size: 30px;
 }
 
@@ -54,6 +54,8 @@ ul.timeline:before {
 
 li.timeline-item {
     margin: 20px 0;
+
+    border-radius: 25px !important;
 }
 
 /* Timeline item arrow */
