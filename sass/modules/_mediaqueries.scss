@@ -1,7 +1,7 @@
 @media (min-width: 375px) {
 
       #splash-bg {
-        margin-top: 110% !important;
+        margin-top: 100% !important;
       
       }
     .navbar {
@@ -24,6 +24,7 @@
         width: 50%;
         margin: 0 auto;
         display: inline-block;
+        margin-top: -50%;
     }
     .splash-txt span{
         font-size: 35px;
@@ -87,6 +88,10 @@
     
 }
 
+// @media (min-width: 375px) {
+
+// }
+
 
 
 @media (min-width: 768px) {
@@ -103,7 +108,7 @@
         margin-top: -20%;
         right: 0px;
         left: 0px;
-        top: 2%;
+        margin-top: -30%;
       }
     #openup img {
         width: 70%;
@@ -239,12 +244,21 @@
     .faq-header {
         background-color: #e6e6e6;
         width: 100vw;
-        padding-top: 5%;
-        // height: 40%;
-        margin-top: -7%;
-        margin-left: -10% !important;
-        margin-right: -10% !important;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
     }
+    #submit_form form{
+        margin-top: 5% !important;
+    }
+    .merch {
+        width: 40% !important;
+        margin: 0 auto;
+    }
+
+.footer-form {
+    margin-top: 20%;
+}
+
     
 
   }
@@ -285,7 +299,7 @@
     #splash img {
         width: 50% !important;
         margin-right: 0% !important;
-        margin-top: 5% !important;
+        margin-top: 8% !important;
         top: -1%;
 
     }
@@ -421,20 +435,36 @@
     #faq {
         padding-top: 0px;
         float: none;
+        min-height: 100vh !important;
     }
     .faq-header {
         width: 100vw;
         margin-right: -15px !important;
         margin-left: -15px !important;
-
-
     }
     .faq-bubble-2, .faq-bubble-1 {
         float: none;
     }
+    #submit_form {
+        margin-top: 0%;
+    }
+
+    #submit_form form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        display: block;
+    }
+    .merch {
+        width: 70% !important;
+        margin: 0 auto;
+        margin-top: -5%;
+        
+    }
 
     footer img {
-        width: 5%;
+        width: 20%;
     }
     html {
         background-color: #2a2a2a ;
