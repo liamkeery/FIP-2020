@@ -1,0 +1,38 @@
+#hows {
+    background-color: #F1933B;
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+#hows h3 p{
+    text-align: left;
+}
+
+#transmission {
+    text-align: left;
+    background-color: white;
+    border: medium solid black;
+}
+
+.trans-header {
+    background-color: #68C1E7;
+    color: white;
+    padding: 5%;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: medium solid black;
+}
+
+#safe {
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    border: medium solid black;
+}
+
+#transmission button {
+    margin: 0 auto !important;
+}

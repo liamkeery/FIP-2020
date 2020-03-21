@@ -1,0 +1,45 @@
+#submit_form {
+    background-color: rgb(236, 236, 236);
+    min-height: 100vh;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    position: relative;
+    overflow: hidden;
+    color: white !important;
+    margin-top: 20%;
+
+}
+
+.submit_header h1 h6{
+    color: white !important;
+    z-index: 500;
+}
+
+.submit_header {
+    width: 100vw;
+    background-color: #e87a42;
+    margin-top: -15%;
+    margin-right: -20%;
+    margin-left: -5%;
+    overflow: hidden;
+    position: relative;
+}
+
+.submit_header img {
+    position: absolute;
+    width: 120% !important;
+    top: -5%;
+    right: -25%;
+    opacity: .2;
+    z-index: 1;
+}
+
+#submit_form form {
+    padding: 5% ;
+    margin-top: 10% !important;
+}
+
+#submit_form label {
+    color: #2a2a2a;
+    text-align: left !important;
+}

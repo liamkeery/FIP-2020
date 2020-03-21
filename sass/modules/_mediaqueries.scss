@@ -62,12 +62,11 @@
         font-size: 16px;
     }
     #aboutUs h1{
-        font-size: 50px;
-        margin-top: 5%;
+        margin-top: 2%;
         margin-bottom: 0%;
 
     }
-    form {
+    .form-bg form {
         border: thick;
         border-radius: 20px;
         /* padding: 20px; */
@@ -92,17 +91,16 @@
 
 @media (min-width: 768px) {
     #splash-bg{
-        margin-top: 60% !important;
+        margin-top: 55% !important;
         bottom: 0;
     }
     .nav-link i {
-        margin-top: 5% !important;
+        margin-top: 15% !important;
     }
     #splash img {
         width: 35% !important;
-        margin-bottom: 20px;
-        background-size: 100% !important;
         display: block;
+        margin-top: -20%;
         right: 0px;
         left: 0px;
         top: 2%;
@@ -176,8 +174,79 @@
         margin: 0 auto;
     }
     .arrow4 i {
-        margin-top: 10% !important;
+        margin-top: 20% !important;
     }
+    #hows {
+        text-align: center;
+    }
+    #transmission {
+        text-align: left;
+    }
+    #transmission button {
+        margin: 0 auto !important;
+    }
+    #endstigma img {
+        width: 60%;
+        margin: 0 auto;
+        left: 0px;
+          // bottom: 0px !important;
+      }
+
+      #testimonials p {
+
+        max-width: 400px;
+        word-wrap: break-word;
+        margin-bottom: 12px;
+        line-height: 24px;
+        position:relative;
+          padding:10px 20px;
+        border-radius:25px;
+        
+        &:before, &:after {
+          content:"";
+              position:absolute;
+          bottom:-2px;
+          height:20px;
+        }
+    }
+    .bubble-1 {
+        clear: both !important;
+
+    }
+    .bubble-2 {
+        clear: both !important;
+        float: left;
+    }
+    #aboutUs img {
+        width: 100%;
+        margin-right: -10%;
+        margin-top: -60%;
+    }
+    #aboutUs h1 {
+        margin-top: -5%;
+    }
+    .faq-bubble-1 {
+        clear: both !important;
+        float: right;
+    }
+    .faq-bubble-2 {
+        clear: both !important;
+        float: left;
+    }
+    #faq p {
+        max-width: 400px;
+    }
+    .faq-header {
+        background-color: #e6e6e6;
+        width: 100vw;
+        padding-top: 5%;
+        // height: 40%;
+        margin-top: -7%;
+        margin-left: -10% !important;
+        margin-right: -10% !important;
+    }
+    
+
   }
 
 
@@ -216,7 +285,7 @@
     #splash img {
         width: 50% !important;
         margin-right: 0% !important;
-        margin-top: 0px !important;
+        margin-top: 5% !important;
         top: -1%;
 
     }
@@ -259,12 +328,13 @@
     .arrow2 i {
         margin-top: 40%;
     }
+   
     #section3 img {
         height: 120%;
         margin-right: -10% !important;
     }
     #section3 h1 {
-        font-size: 60px;
+        font-size: 2.5rem;
         margin-top: 5%;
     }
     #section3 span {
@@ -274,15 +344,17 @@
     .arrow3 i {
         margin-top: 50%;
     }
-
+    
     #timeline img {
         width: 8%;
         float: left;
     }
-    
+    #section4 {
+        padding-bottom: 0px !important;
+    }
     #section4 h1 {
         margin-top: 20%;
-        font-size: 60px;
+        font-size: 2.5rem;
     }
     
     #section4 h4 {
@@ -290,24 +362,77 @@
 
     }
     .sec4-img {
-        width: 100%;
+        width: 90%;
+        left: 0px;
+        right: 40px;
+        margin-right: 20%;
     }
     .sec4-svg {
-        width: 70% !important;
-        margin: 0 auto;
+        width: 80% !important;
+        margin-bottom: 0px;
+        margin-top: 10% !important;
+        bottom: 0;
+        right:0;
+        left: 0;
+        z-index: 1;
     }
     .arrow4 i {
-        margin-top: 10% !important;
+        color: white !important;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        z-index: 500;
+        margin-top: 20% !important;
     }
-    #aboutUs h1{
-        font-size: 60px;
-        margin-top: 0%;
-        margin-bottom: 0%;
+    #transmission {
+        display: inline-block;
+    }
+    #safe {
+        margin-left: 5%;
+        display: inline-block;
+      
+    }
+    #hows button {
+        display: block;
+        clear: both;
+    }
+    #endstigma {
+        max-height: 100vh;
+    }
+    #endstigma img{
+        width: 40% !important;
+        height: 10% !important;
+        margin-bottom: 20%;
+        bottom: 0px;
 
+    }
+    #aboutUs img {
+        width: 80%;
+        margin-left: -10%;
+        margin-top: 1%;
+    }
+    #aboutUs h1 {
+        margin-top: 5%;
     }
     #aboutUs h6 {
         font-size: 20px;
     }
+    #faq {
+        padding-top: 0px;
+        float: none;
+    }
+    .faq-header {
+        width: 100vw;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+
+
+    }
+    .faq-bubble-2, .faq-bubble-1 {
+        float: none;
+    }
+
     footer img {
         width: 5%;
     }
@@ -323,6 +448,7 @@
         margin-top: 5px;
     
       }
+    
       
       .left {
         transform: rotate(135deg);
@@ -342,7 +468,7 @@
         
     }
     
-    form {
+    .form-bg form {
         border: thick;
         border-radius: 20px;
         /* padding: 20px; */

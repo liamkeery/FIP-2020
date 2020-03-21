@@ -1,19 +1,22 @@
 #aboutUs {
     background-color: #955e99; //try
     padding-top: 5%;
+    padding-bottom: 5%;
     min-height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 
 #aboutUs img {
-    background-size: 150% 150%;
-    margin-right: -50% !important;
+    width: 100%;
+    margin-right: -10%;
+    margin-top: -50%;
 }
 
 #aboutUs h1 {
     color: white;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 #aboutUs h6 {
@@ -26,6 +29,7 @@
 }
 
 #aboutUs span {
-    color: #e87a42;
+    color: white;
+    font-weight: bolder;
 
 }

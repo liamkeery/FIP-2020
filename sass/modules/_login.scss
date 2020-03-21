@@ -26,7 +26,7 @@
     
 }
 
-form {
+.form-bg form {
     border: thick;
     border-radius: 20px;
     /* padding: 20px; */
@@ -45,7 +45,7 @@ form h6 {
 
 .login-title {
     margin-top: -60%;
-    color: white;
+    color: white !important;
 }
 
 .cred {
