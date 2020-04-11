@@ -1,12 +1,12 @@
 footer {
     padding-top: 30px;
-    background-color: #2a2a2a;
-    color: #bbb;
+    background-color: #b7b7b7;
+    color: black;
     font-family: 'Open Sans', sans-serif;
   }
 
 footer img {
-    width: 15%;
+    width: 50%;
 }
 
 footer h4 {
@@ -18,21 +18,17 @@ footer ul li {
     color: #bbb !important;
 }
 
-footer i {
-    color: white;
-}
-
 
   footer p{
-      color: #999 !important;
+      color: black !important;
   }
   
   footer a{
-    color: #999 !important;
+    color: black !important;
 }
 
 footer i{
-    color: #999 !important;
+    color: black !important;
 }
   .nav-col {
       color: #bbb;
@@ -45,7 +41,7 @@ footer i{
   }
   
   footer .form-control {
-      background-color: #1f2022;
+     
       box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
       border: none;
       resize: none;
@@ -55,7 +51,16 @@ footer i{
 
 
   .sec-footer {
-    background-color: #d80000;
-    color: white;
+    background-color: black;
+    color: white !important;
     padding-top: 10px;
 }
+
+.sec-footer p {
+    color: white !important;
+}
+
+footer .social-nav ul ul a {
+    background-color: transparent !important;
+}
+

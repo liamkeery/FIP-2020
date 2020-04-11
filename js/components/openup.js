@@ -6,6 +6,9 @@ export default {
     template: `  
     <section class="container-fluid" id="openup">
     <div class="row mx-auto text-center">
+        <div class="col-lg-6 col-lg-offset-6">
+            <img src="./images/watermelon.png" alt="splash" class="sec2-svg text-center">
+        </div>
         <div class="col-lg-6 col-sm-12 mt-0">
             <h1 class="mb-4">#OPENUP</h1>
             <h4>Now is the time to get talking.</h4>
@@ -16,9 +19,6 @@ export default {
             <p class="arrow-down"><i class="fas fa-chevron-down"></i></p>
             </a>
         </div> 
-        <div class="col-lg-6 col-lg-offset-6">
-            <img src="./images/loli-guy.png" alt="splash" class="sec2-svg text-center">
-        </div>
     </div>
     
     

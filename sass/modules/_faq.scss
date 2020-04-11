@@ -1,5 +1,5 @@
 #faq {
-    background-color: white; //try
+    background-color: #2dea86; //try
     min-height: 100vh;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -20,6 +20,10 @@
 
 #faq h1 {
     font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    color: white;
 }
 
 #faq p {
@@ -59,7 +63,7 @@ float: right;
 &:after {
     right:-56px;
     width:26px;
-    background:white;
+    background:#2dea86;
     border-bottom-left-radius: 10px;
     transform:translate(-30px, -2px);
 }
@@ -80,9 +84,16 @@ cursor: pointer;
 &:after {
     left:4px;
     width:26px;
-    background:white;
+    background:#2dea86;
     border-bottom-right-radius: 10px;
     transform:translate(-30px, -2px);
 }
+}
+
+#faq img {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 

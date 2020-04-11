@@ -2,18 +2,29 @@
   background-color: transparent !important;
 }
 .navbar-nav {
-  background-color: #2a2a2a;
   text-align: center;
-  background-color: #2a2a2a;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5) !important;
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.navbar-nav .nav-item {
+  opacity: 1;
 }
 
 .navbar-fixed-top.scrolled {
   background-color: transparent !important;
   transition: background-color 300ms ease;
 }
+.navbar-brand img{
+  width: 80%;
+  float: left;
+}
 
+.navbar-brand {
+  width: 50%;
+}
 nav.navbar ul li a {
     position:relative;
     z-index: 1;
@@ -31,7 +42,7 @@ nav.navbar ul li a {
     height: 1px;
     content: '.';
     color: transparent;
-    background: #D80000;
+    background: black;
     visibility: none;
     opacity: 0;
     z-index: -1;
@@ -50,7 +61,7 @@ nav.navbar ul li a {
     border-radius: 5px;
     content: '.';
     color: white;
-    background: #D80000 !important;
+    background: black!important;
   }
 
 .dropdown-menu {

@@ -6,10 +6,10 @@ export default {
     template: `  
     <section class="container-fluid" id="submit_form">
     <div class="row mx-auto text-center">
-        <div class="submit_header">
-            <h1 class="mb-4">Got any questions for us? Ask away.</h1>
-            <img src="./images/cupcake.svg" alt="splash" class="text-center">
-        </div>
+ 
+            <h1 class="mb-4">Have more questions? Ask away.</h1>
+            <img src="./images/guy.png" alt="splash" class="text-center">
+
         <div class="col-lg-12 col-sm-12 mt-0">
             <form action="">
                 <div class="form-group text-left">

@@ -1,6 +1,6 @@
 #merch {
     background-color: #2dea86;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 10%;
     padding-bottom: 10%;
     overflow: hidden;
@@ -8,4 +8,9 @@
 
 .merch {
     width: 100%;
+}
+
+#merch .banana {
+    width: 130% !important;
+    margin-bottom: -40%;
 }

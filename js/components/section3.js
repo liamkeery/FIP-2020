@@ -12,7 +12,7 @@ export default {
             <p><b>14% </b>of Canadians are unaware of their HIV status.</p>
             <h4>We can change that.</h4>
             <button class="btn mx-auto mt-5 btn-sec3">FIND A TEST CENTRE</button>
-            <img src="./images/14people.png" alt="14 People" class="d-lg-none d-md-none">
+            <img src="./images/people.png" alt="14 People" class="d-lg-none">
             <a class=" arrow3" href="#section4">
                 <p class="arrow-down"><i class="fas fa-chevron-down"></i></p>
             </a>

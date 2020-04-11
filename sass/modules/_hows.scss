@@ -1,5 +1,5 @@
 #hows {
-    background-color: #F1933B;
+    background-color: #4BC9F5;
     min-height: 100vh;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -13,8 +13,10 @@
 
 #transmission {
     text-align: left;
-    background-color: white;
+    background-color: #EAA4C8;
     border: medium solid black;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .trans-header {
@@ -29,8 +31,10 @@
 #safe {
     height: 100%;
     text-align: left;
-    background-color: white;
+    background-color: #EAA4C8;
     border: medium solid black;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 #transmission button {

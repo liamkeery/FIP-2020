@@ -6,13 +6,14 @@ export default {
     template: `  
     <section class="container-fluid" id="faq">
     <div class="row mx-auto text-center">
-        <div class="faq-header mb-5 text-center">
+        <div class="col-md-12 col-sm-12 mt-0 mx-auto">
             <h1 class="mb-4 mt-5">FAQ</h1>
             <h4 class="mb-4">You've got questions? We've got answers.</h4>
-            <span class="text-center mb-5">Click the light text to get a reply</span>
+            <span class="mb-5">Click the light text to get a reply</span>
+            <img src="./images/speech-bubble.svg" alt="splash" class="sec2-svg col-lg-6 text-center">
+   
         </div>
-
-        <div class="col-lg-3 col-sm-12 mt-0 mx-auto">
+        <div class="col-lg-3 col-sm-12 mt-5 mx-auto">
             
             <p class="faq-bubble-2" @click="expandAnswers1()"><b>How soon do you get the
             test results back?</b></p>
@@ -48,7 +49,7 @@ export default {
             var answer = document.getElementById("reveal1");
             if (answer.style.display === "none") {
                 answer.style.display = "block";
-            } else {
+            } else  {
                 answer.style.display = "none";
             }
         },

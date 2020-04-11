@@ -7,6 +7,7 @@ import section4 from "./section4.js"
 import hows from "./hows.js"
 import endstigma from "./endstigma.js"
 import testimonials from "./testimonials.js"
+import testimonialsPart2 from "./testimonialsPart2.js"
 import aboutUs from "./aboutUs.js"
 import faq from "./faq.js"
 import submit_form from "./submit_form.js"
@@ -22,7 +23,7 @@ export default {
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top" id="home">
         <!-- Logo -->
         <router-link class="navbar-brand" to="/">
-            <img src="./images/logo-final.png" alt="Logo" width="60">
+            <img src="./images/logo.svg" alt="Logo" width="50">
         </router-link>
         <!-- Burger Toggle -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,14 +123,19 @@ export default {
     <!-- Testimonials -->
     <testimonials></testimonials>
 
-    <!-- About Us -->
-    <aboutUs></aboutUs>
+    <!-- Testimonials Part 2-->
+    <testimonialsPart2></testimonialsPart2>
 
     <!-- FAQ -->
     <faq></faq>
 
+
     <!-- Submission Form -->
     <submit_form></submit_form>
+
+    <!-- About Us -->
+    <aboutUs></aboutUs>
+
 
     <!-- Merch -->
     <merch></merch>
@@ -138,68 +144,57 @@ export default {
 <footer class="footer" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
-                <img src="./images/logo-final.png" alt="Logo" class="mt-5">
-                <h4 class="mt-2">#OPENUP</h4>
+            <div class="col-md-4">
+                <img src="./images/logo.png" alt="Logo" class="mt-5">
                 <p class="mt-5 mb-5"><router-link to="/adminlogin">Admin Login</router-link></p>
-                <div class="row">
-                    <div class="col-6 nav-col">
-                        <ul class="list-unstyled">
-                            <li><a href="/">HOME</a></li>
-                            <li><a href="#openup">#OPENUP</a></li>
-                            <li><a href="#section2">ABOUT HIV/AIDS</a></li>
-                            <li><a href="#section3">FIND A RESOURCE CENTRE</a></li>
-                            <li><a href="#section4">SAFER SEX PRACTICES</a></li>
-                            
-                        </ul>
-                    </div>
-                    <div class="col-6 nav-col">
-                        <ul class="list-unstyled">
-                            <li><a href="#endstigma">END THE STIGMA</a></li>
-                            <li><a href="#aboutUs">WHO WE ARE</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#merch">MERCH</a></li>
-                            <li><a href="#footer">CONTACT</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="nav">
-                    <li class="nav-item"><a href="" class="pl-0"><i class="fab fa-facebook-square"></i></a></li>
-                    <li class="nav-item"><a href="" class="pl-3"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-                <p class="mt-4 mb-5">Created in partnership with <b><a href="https://hivaidsconnection.ca/">Regional HIV&#47;AIDS Connection.</a></b></p>
-                <br>
-            </div>
-            <div class="col-md-2 footer-form">
-                <h5 class="text-md-right">Contact Us</h5>
+                <h5 class="text-md-left">Contact Us</h5>
                 <hr>
+                    <form>
+                        <fieldset class="form-group">
+                            <input type="email" class="form-control" id="footer_email" placeholder="Email">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea class="form-control" id="footer_msg" placeholder="Message"></textarea>
+                        </fieldset>
+                        <fieldset class="form-group text-xs-right">
+                            <button type="button" class="btn btn-secondary-outline btn-lg">SUBMIT</button>
+                        </fieldset>
+                    </form>
             </div>
-            <div class="col-md-5 footer-form">
-                <form>
-                    <fieldset class="form-group">
-                        <input type="email" class="form-control" id="footer_email" placeholder="Enter email">
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <textarea class="form-control" id="footer_msg" placeholder="Message"></textarea>
-                    </fieldset>
-                    <fieldset class="form-group text-xs-right">
-                        <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
-                    </fieldset>
-                </form>
+            <div class="col-md-4 kiss-img">
+                <img src="./images/Kissss.svg" alt="Logo" class="mt-3">
+            </div>
+            <div class="col-md-4 nav-col footer-nav">
+                <ul class="list-unstyled">
+                    <li class="text-md-right"><a href="/">HOME</a></li>
+                    <li class="text-md-right"><a href="#openup">#OPENUP</a></li>
+                   <li class="text-md-right"><a href="#section2">ABOUT HIV/AIDS</a></li>
+                   <li class="text-md-right"><a href="#section3">FIND A RESOURCE CENTRE</a></li>
+                   <li class="text-md-right"><a href="#section4">SAFER SEX PRACTICES</a></li>
+                   <li class="text-md-right"><a href="#endstigma">END THE STIGMA</a></li>
+                   <li class="text-md-right"><a href="#aboutUs">WHO WE ARE</a></li>
+                   <li class="text-md-right"><a href="#faq">FAQ</a></li>
+                   <li class="text-md-right"><a href="#merch">MERCH</a></li>
+                   <li class="text-md-right"><a href="#footer">CONTACT</a></li>
+               
+                        <li class="text-md-right"><a href="" class="pl-0"><i class="fab fa-facebook-square"></i></a><a href="" class="pl-3"><i class="fab fa-instagram"></i></a></li>
+                  
+              
+               </ul>
+               <p class="text-md-right">Created in partnership with <b><a href="https://hivaidsconnection.ca/">Regional HIV&#47;AIDS Connection.</a></b></p>
             </div>
         </div>
     </div>
 </footer>
 <!-- Secondary Footer -->
 <div class="container-fluid sec-footer">
-<div class="row text-center mx-auto">
- <div class="col">
-   <p>Copyright © 2020 Open Up. All Rights Reserved.</p>
-  </div>
+    <div class="row text-center mx-auto">
+        <div class="col">
+            <p>Copyright © 2020 Open Up. All Rights Reserved.</p>
+        </div>
+    </div>
 </div>
-</div>
-
-    </section>
+</section>
     `,
 
     data: function() {
@@ -217,6 +212,7 @@ export default {
         hows: hows,
         endstigma: endstigma,
         testimonials: testimonials,
+        testimonialsPart2:testimonialsPart2,
         aboutUs: aboutUs,
         faq: faq,
         submit_form: submit_form,

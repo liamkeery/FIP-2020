@@ -1,6 +1,5 @@
 // // //Define a new component called section2
 
-import home from "./home.js"
 
 export default {
     template: `  
@@ -8,8 +7,25 @@ export default {
     <div class="row mx-auto text-center">
         <div class="col-lg-6 col-sm-12 mt-0">
             <h1 class="mb-5">Merch</h1>
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+            <img src="./images/merch1.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+        <a href="#"><button class="btn text-center mx-auto mt-3 mb-5">BUY NOW</button></a>
+
         </div> 
-        <img src="./images/merch.png" alt="splash" class="col-lg-6 col-md-8 col-sm-12 merch">
+       
+        <div class="col-lg-6 col-sm-12 mt-0 banana">
+            <img src="./images/banana.svg" alt="splash" class="col-lg-6 col-md-8 col-sm-12">
+        </div>
+        
+      
   
     </div>
     

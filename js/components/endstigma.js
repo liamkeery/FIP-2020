@@ -6,6 +6,7 @@ export default {
     template: `  
     <section class="container-fluid" id="endstigma">
     <div class="row mx-auto text-center">
+    <img src="./images/cherry.svg" alt="Cherries" class="text-center">
         <div class="col-lg-6 col-sm-12 mt-0">
             <h1 class="mb-4">Let's End the Stigma</h1>
             <video controls poster="./images/placeholder.png" class="mb-5 mt-3">
@@ -14,7 +15,6 @@ export default {
                 Your browser does not support the video tag.
             </video>
         </div> 
-        <img src="./images/pineapple-girl.png" alt="Citrus Girl" class="text-center">
     </div>
   </section>
     `,

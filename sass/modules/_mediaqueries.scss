@@ -1,3 +1,35 @@
+@media (max-width: 320px) {
+    #splash img {
+        position: absolute;
+        width: 50%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: -100%;
+    }
+    #splash h1 {
+        font-size: 30px;
+    }
+    .splash-txt span{
+        font-size: 25px;
+    }
+    #splash-bg .ipad {
+        height: 50vh;
+        margin-bottom: 0%;
+        margin-top: 250%;
+
+    }
+    #section3 img {
+        height: 6%;
+        position: relative;
+        margin-top: 35%;
+    }
+
+    #section3 h1 {
+        font-size: 40px;
+
+    }
+}
+
 @media (min-width: 375px) {
 
       #splash-bg {
@@ -24,7 +56,7 @@
         width: 50%;
         margin: 0 auto;
         display: inline-block;
-        margin-top: -50%;
+        margin-top: -80%;
     }
     .splash-txt span{
         font-size: 35px;
@@ -37,7 +69,8 @@
         margin-top: 20%;
     }
     #section2 img {
-        margin-top: -35%;
+        margin-top: -45%;
+        width: 90%;
 }
     #section3 h1 {
         font-size: 30px;
@@ -102,6 +135,9 @@
     .nav-link i {
         margin-top: 15% !important;
     }
+    .navbar-brand img {
+        width: 50%;
+    }
     #splash img {
         width: 35% !important;
         display: block;
@@ -110,6 +146,10 @@
         left: 0px;
         margin-top: -30%;
       }
+
+    #splash .ipad {
+        margin-top: 50%;
+    }
     #openup img {
         width: 70%;
     }
@@ -128,6 +168,10 @@
     }
     #sidebarCollapse span {
         display: none;
+    }
+    .slide-1, .slide-2, .slide-3 {
+        height: 70vh;
+        margin-top: 5%;
     }
     .slide-1 img {
         width: 60%;
@@ -149,7 +193,7 @@
     }
     #section2 img {
         margin-top: -20% !important;
-       width: 60% !important;
+       width: 80%;
        margin: 0 auto;
     }
     #section2 h1 {
@@ -162,6 +206,11 @@
     #section3 h1 {
         font-size: 2.5rem;
     }
+    #section3 img {
+        height: 10%;
+        position: relative;
+        margin-top: 30%;
+    }
     .arrow3 i {
         color: black !important;
         border-width: 0 3px 3px 0;
@@ -170,6 +219,17 @@
         margin: 0 auto;
         z-index: 500;
         margin-top: 30%;
+    }
+    #faq h1 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #faq img {
+        width: 30%;
+        margin-top: 0%;
+
     }
     .sec4-img {
         width: 30%;
@@ -222,13 +282,30 @@
         clear: both !important;
         float: left;
     }
-    #aboutUs img {
+    #aboutUs .eggp {
         width: 100%;
         margin-right: -10%;
         margin-top: -60%;
     }
+
+    #aboutUs .citrusg {
+        width: 80%;
+       text-align: center;
+       margin: 0 auto;
+       margin-top: 5%;
+
+    }
+    #aboutUs .openup-h1 {
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+
     #aboutUs h1 {
         margin-top: -5%;
+    }
+    #merch .banana img {
+        width: 90%;
+        margin-bottom: 10%;
     }
     .faq-bubble-1 {
         clear: both !important;
@@ -247,6 +324,16 @@
         margin-right: -15px !important;
         margin-left: -15px !important;
     }
+    #submit_form h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #submit_form img {
+        width: 60% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
     #submit_form form{
         margin-top: 5% !important;
     }
@@ -255,9 +342,19 @@
         margin: 0 auto;
     }
 
-.footer-form {
-    margin-top: 20%;
-}
+    .footer-form {
+        margin-top: 20%;
+    }
+    .footer-nav {
+        margin-top: 10%;
+    }
+    .kiss-img img {
+        margin-top: 50% !important;
+
+        width: 150% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
 
     
 
@@ -272,8 +369,14 @@
     }
     .navbar-nav {
         text-align: center;
-        background-color: transparent;
+        background-color: transparent !important;
     }
+    .navbar-brand img {
+        width: 40% !important;
+    }
+    .navbar-brand {
+        width: 40%;
+      }
     .dropdown-menu {
         background-color: #2a2a2a !important;
         border-radius: 10px !important;
@@ -299,33 +402,91 @@
     #splash img {
         width: 50% !important;
         margin-right: 0% !important;
-        margin-top: 8% !important;
+        margin-top: 10% !important;
         top: -1%;
-
+    }
+    #splash h1 {
+        font-size: 80px;
+    }
+    .splash-txt span {
+        font-size: 55px;
+    }
+    .nav-link i {
+        margin-top: 25% !important;
     }
     #splash-bg {
         margin-top: 20% !important;
        margin-left: 10% !important;
+    }
+    #splash-bg .ipad {
+        margin-top: 0%;
     }
     #openup img {
         width: 100%;
         float: right;
         margin-right: 0px;
     }
+    #openup h1 {
+        color: black;
+        margin-top: 10%;
+        font-size: 80px;
 
+    }
+    #openup h4 {
+        font-size: 45px;
+        
+    }
+    #openup p {
+        font-size: 20px;
+        line-height: 40px;
+
+    }
     .arrow-1 i {
 
         border-width: 0 3px 3px 0;
         display: inline-block;
         padding: 6px;
         position : absolute;
-        margin-top: 40% !important;
+        margin-top: 10% !important;
         margin-left: 40%;
         z-index: 100 !important;
     }
+
+    #openup_slideshow {
+        min-height: 100%;
+
+    }
+
+    .slide-1, .slide-2, .slide-3 {
+        border-radius: 15px;
+        min-height: 100%;
+        padding: 5%;
+        text-align: center;
+    }
     .carousel-inner {
+        width: 80% !important;
+        min-height: 120% !important;
         margin: 0 auto;
-        width: 40% !important;
+
+    }
+
+    .slide-1 img {
+        width: 30%;
+        text-align: center !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .slide-2 img {
+        width: 30%;
+
+    }
+    .slide-3 img {
+        width: 30%;
+
+    }
+    .slide-img {
+        width: 40%;
+        height: 40%;
     }
 
     #section2 {
