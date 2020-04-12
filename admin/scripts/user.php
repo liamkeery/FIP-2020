@@ -84,6 +84,8 @@ function getAllUsers() {
 
             $currentuser['id'] = $user['user_id'];
             $currentuser['uname'] = $user['user_name'];
+            $currentuser['email'] = $user['user_email'];
+            $currentuser['fname'] = $user['user_fname'];
 
             $users[] = $currentuser;
         }
@@ -94,24 +96,47 @@ function getAllUsers() {
     }
 }
 
-function deleteUser($user_id) {
+function deleteUser($userID) {
+    $query = "DELETE FROM tbl_user WHERE id=:uID";
+
+    $removeUser = $pdo->prepare($query);
+    $count = $removeUser->execute(array(':uID' => $userID));
+
+    // this will just return a boolean for success or failure - true ($count)
+    // or a message if it's false (can't delete)
+    if ($count > 0) {
+        return $count;
+    } else {
+        return "couldn't delete user";
+    }
+}
+
+function addUser() {
+
     $pdo = Database::getInstance()->getConnection();
 
-    $delete_user_query = 'DELETE FROM tbl_user WHERE user_id = :id';
-    $delete_user_set= $pdo->prepare($delete_user_query);
-    $delete_user_result = $delete_user_set->execute(
-                array(
-                    ':id'=>$user_id
-                )
-            );
+    $newUserQuery = "INSERT INTO tbl_user (user_fname, user_name, user_pass, user_email, user_ip) VALUES (:fname, :username, :password, :email, 'no')";
 
+    $newUserResult = $pdo->prepare($newUserQuery);
+    $newUserResult = $newUserQuery->execute(array(
+        ':fname' => $_POST['fname'],
+        ':username' => $_POST['username'],
+        ':password' => $_POST['password'],
+        ':email' => $_POST['email']
+    ));
 
-    if($delete_user_result && $delete_user_set->rowCount() > 0){
-        redirect_to('admin_deleteuser.php');
+    if ($newUserResult) {
+        // success
+        //echo 'added user';
+        return array('result' => $newUserResult);
     } else {
-        return false;
+        // failure
+        // echo 'could not add user';
+        return array('result' => false);
     }
 
+    // TODO => we can just return $newUserResult and handle success or failure on the client side
+    // depending on what gets returned as 'result'
 }
 
 ?>
