@@ -2,10 +2,11 @@
     background-color: #D80000;
     position: relative;
     min-height: 100vh;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    // margin-bottom: -1%;
     flex-direction: column;
 }
+
+
 
 #testimonials h1 {
     font-size: 30px;
@@ -74,8 +75,8 @@ float: left;
 }
 }
 
-.testimonials-svg{
-    width: 50%;
+.testimonials-svg img{
+    width: 100%;
     margin: 0 auto;
 }
 

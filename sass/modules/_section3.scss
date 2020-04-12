@@ -5,8 +5,8 @@ b {
     padding-top: 5%;
     background: url('/FIP-2020/images/sect3-bg.png') !important;
     background-repeat: no-repeat;
+    background-size: contain;
     min-height: 100vh;
-    height: 100vh;
     padding-bottom: 5%;
     overflow: hidden !important;
 }
@@ -49,5 +49,5 @@ b {
     position: absolute;
     margin: 0 auto;
     z-index: 500;
-    margin-top: 10%;
+    margin-top: 5%;
 }

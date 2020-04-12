@@ -1,13 +1,17 @@
 #merch {
-    background-color: #2dea86;
+    background-color: #F9CE1D;
     min-height: 100vh;
     padding-top: 10%;
     padding-bottom: 10%;
     overflow: hidden;
 }
 
-.merch {
-    width: 100%;
+#merch h1 {
+    text-align: center;
+}
+
+.merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8, .merch9{
+    width: 60%;
 }
 
 #merch .banana {

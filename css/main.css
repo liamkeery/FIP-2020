@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Open+Sans:400,600,700,800&display=swap");
+#mainNav a {
+  color: white; }
+
 .navbar {
   background-color: transparent !important; }
 
@@ -54,7 +57,6 @@ nav.navbar ul li a:hover:after {
 .navbar-nav a.nav-link.active {
   display: block;
   width: 100%;
-  height: 100%;
   border-radius: 5px;
   content: '.';
   color: white;
@@ -252,7 +254,8 @@ nav.navbar ul li a:hover:after {
   min-height: 100vh;
   width: 50%;
   padding: 5%;
-  text-align: center; }
+  text-align: center;
+  border: 5px solid black; }
 
 .carousel-control-next,
 .carousel-control-prev {
@@ -403,8 +406,8 @@ b {
   padding-top: 5%;
   background: url("/FIP-2020/images/sect3-bg.png") !important;
   background-repeat: no-repeat;
+  background-size: contain;
   min-height: 100vh;
-  height: 100vh;
   padding-bottom: 5%;
   overflow: hidden !important; }
 
@@ -440,7 +443,7 @@ b {
   position: absolute;
   margin: 0 auto;
   z-index: 500;
-  margin-top: 10%; }
+  margin-top: 5%; }
 
 #section4 {
   background-color: #4bc9f5;
@@ -498,7 +501,7 @@ b {
 #transmission {
   text-align: left;
   background-color: #EAA4C8;
-  border: medium solid black;
+  border: 5px solid black;
   border-radius: 25px;
   padding: 10px; }
 
@@ -514,12 +517,18 @@ b {
   height: 100%;
   text-align: left;
   background-color: #EAA4C8;
-  border: medium solid black;
+  border: 5px solid black;
   border-radius: 25px;
   padding: 10px; }
 
 #transmission button {
   margin: 0 auto !important; }
+
+#transmission .emoji-head {
+  width: 10%; }
+
+#safe .emoji-head {
+  width: 10%; }
 
 #endstigma {
   background-color: #d80000;
@@ -543,8 +552,6 @@ video {
   background-color: #D80000;
   position: relative;
   min-height: 100vh;
-  padding-top: 10%;
-  padding-bottom: 10%;
   flex-direction: column; }
 
 #testimonials h1 {
@@ -599,8 +606,8 @@ video {
     border-bottom-right-radius: 10px;
     transform: translate(-30px, -2px); }
 
-.testimonials-svg {
-  width: 50%;
+.testimonials-svg img {
+  width: 100%;
   margin: 0 auto; }
 
 #aboutUs {
@@ -624,15 +631,16 @@ video {
 
 #aboutUs p {
   color: white;
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: center !important; }
 
 #aboutUs span {
   color: white;
   font-weight: bolder; }
 
 #aboutUs .citrusg {
-  width: 100%;
-  margin-right: -10%; }
+  width: 130%;
+  margin-left: -15%; }
 
 #faq {
   background-color: #2dea86;
@@ -642,14 +650,6 @@ video {
   position: relative;
   overflow: hidden;
   flex-direction: column; }
-
-.faq-header {
-  background-color: #e6e6e6;
-  padding-top: 5%;
-  margin-top: -7%;
-  width: 100vw;
-  margin-right: -15px !important;
-  margin-left: -15px !important; }
 
 #faq h1 {
   font-size: 30px;
@@ -711,7 +711,8 @@ video {
   width: 50%;
   text-align: center;
   margin: 0 auto;
-  margin-top: 10%; }
+  margin-top: -10%;
+  margin-bottom: 10%; }
 
 #submit_form {
   background-color: #2DE986;
@@ -731,7 +732,8 @@ video {
   text-align: center; }
 
 #submit_form h1 {
-  font-size: 30px; }
+  font-size: 30px;
+  color: black; }
 
 .submit_header img {
   position: absolute;
@@ -761,14 +763,17 @@ video {
   outline: 0 none; }
 
 #merch {
-  background-color: #2dea86;
+  background-color: #F9CE1D;
   min-height: 100vh;
   padding-top: 10%;
   padding-bottom: 10%;
   overflow: hidden; }
 
-.merch {
-  width: 100%; }
+#merch h1 {
+  text-align: center; }
+
+.merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8, .merch9 {
+  width: 60%; }
 
 #merch .banana {
   width: 130% !important;
@@ -1289,7 +1294,7 @@ ul ul a {
   #section3 img {
     height: 10%;
     position: relative;
-    margin-top: 30%; }
+    margin-top: 60%; }
 
   .arrow3 i {
     color: black !important;
@@ -1298,7 +1303,7 @@ ul ul a {
     position: absolute;
     margin: 0 auto;
     z-index: 500;
-    margin-top: 30%; }
+    margin-top: 10%; }
 
   #faq h1 {
     font-size: 30px;
@@ -1329,10 +1334,19 @@ ul ul a {
   #transmission button {
     margin: 0 auto !important; }
 
+  #transmission .emoji-head {
+    width: 5%; }
+
+  #safe .emoji-head {
+    width: 5%; }
+
   #endstigma img {
     width: 60%;
     margin: 0 auto;
     left: 0px; }
+
+  #testimonials {
+    padding-bottom: -10%; }
 
   #testimonials p {
     max-width: 400px;
@@ -1355,13 +1369,22 @@ ul ul a {
     clear: both !important;
     float: left; }
 
+  .testimonials-svg img {
+    margin: 0 auto; }
+
+  .testimonials2-svg img {
+    margin: 0 auto; }
+
+  .bubble-1 {
+    width: 60%; }
+
   #aboutUs .eggp {
-    width: 100%;
+    width: 60%;
     margin-right: -10%;
-    margin-top: -60%; }
+    margin-top: -30%; }
 
   #aboutUs .citrusg {
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: 0 auto;
     margin-top: 5%; }
@@ -1418,7 +1441,7 @@ ul ul a {
     margin-top: 10%; }
 
   .kiss-img img {
-    margin-top: 50% !important;
+    margin-top: 40% !important;
     width: 150% !important;
     text-align: center;
     margin: 0 auto; } }
@@ -1511,7 +1534,8 @@ ul ul a {
     border-radius: 15px;
     min-height: 100%;
     padding: 5%;
-    text-align: center; }
+    text-align: center;
+    border: 5px solid black; }
 
   .carousel-inner {
     width: 80% !important;
@@ -1543,38 +1567,74 @@ ul ul a {
     margin-left: -5% !important; }
 
   #section2 h1 {
-    margin-top: 5%; }
+    margin-top: 5%;
+    font-size: 80px; }
+
+  #section2 h4 {
+    font-size: 45px; }
+
+  #section2 p {
+    font-size: 20px;
+    line-height: 40px; }
 
   .arrow2 i {
-    margin-top: 40%; }
+    margin-top: 10%; }
 
-  #section3 img {
-    height: 120%;
-    margin-right: -10% !important; }
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+    margin-left: -40%; }
+
+  li.timeline-item {
+    width: 80vw; }
+
+  ul.timeline:before {
+    left: 16px;
+    min-height: 100%; }
+
+  #section3 {
+    min-height: 100vh; }
 
   #section3 h1 {
-    font-size: 2.5rem;
+    font-size: 70px;
+    margin-top: 5%; }
+
+  #section3 h4 {
+    font-size: 40px;
     margin-top: 5%; }
 
   #section3 span {
     font-size: 32px; }
 
+  #section3 img {
+    height: 15%;
+    position: relative;
+    margin-top: 80%;
+    margin: 0 auto;
+    text-align: center; }
+
+  #section3 button {
+    margin: 0 auto;
+    text-align: center; }
+
   .arrow3 i {
-    margin-top: 50%; }
+    margin-top: 20%; }
 
   #timeline img {
     width: 8%;
     float: left; }
 
   #section4 {
-    padding-bottom: 0px !important; }
+    padding-bottom: 0px !important;
+    min-height: 100vh;
+    padding-top: 2% !important; }
 
   #section4 h1 {
     margin-top: 20%;
-    font-size: 2.5rem; }
+    font-size: 68px; }
 
   #section4 h4 {
-    font-size: 32px; }
+    font-size: 30px; }
 
   .sec4-img {
     width: 90%;
@@ -1583,9 +1643,9 @@ ul ul a {
     margin-right: 20%; }
 
   .sec4-svg {
-    width: 80% !important;
+    width: 90% !important;
     margin-bottom: 0px;
-    margin-top: 10% !important;
+    margin-top: 5% !important;
     bottom: 0;
     right: 0;
     left: 0;
@@ -1598,32 +1658,72 @@ ul ul a {
     position: absolute;
     margin: 0 auto;
     z-index: 500;
-    margin-top: 20% !important; }
+    margin-top: 0% !important; }
 
   #transmission {
     display: inline-block; }
 
   #safe {
-    margin-left: 5%;
     display: inline-block; }
 
   #hows button {
     display: block;
     clear: both; }
 
+  #hows h3 {
+    font-size: 70px; }
+
+  #hows p {
+    font-size: 20px; }
+
+  #hows ul li {
+    font-size: 20px; }
+
+  #transmission p {
+    line-height: 25px; }
+
+  #transmission .emoji-head {
+    width: 3%; }
+
+  #safe .emoji-head {
+    width: 3%; }
+
+  #transmission li {
+    list-style-type: circle !important; }
+
+  #hows a:hover {
+    text-decoration: none; }
+
   #endstigma {
     max-height: 100vh; }
 
-  #endstigma img {
-    width: 40% !important;
-    height: 10% !important;
-    margin-bottom: 20%;
-    bottom: 0px; }
+  #endstigma {
+    overflow: hidden; }
 
-  #aboutUs img {
-    width: 80%;
-    margin-left: -10%;
-    margin-top: 1%; }
+  #endstigma img {
+    width: 50% !important;
+    height: 10% !important;
+    margin-top: -10%;
+    bottom: 0px;
+    margin-left: -5%; }
+
+  #endstigma h1 {
+    font-size: 70px;
+    margin-top: 5%; }
+
+  #testimonials {
+    padding-bottom: 0%; }
+
+  #testimonials h1 {
+    font-size: 60px;
+    color: white; }
+
+  .testimonials-svg {
+    width: 100% !important; }
+
+  .testimonials2-svg {
+    height: 280% !important;
+    left: -10% !important; }
 
   #aboutUs h1 {
     margin-top: 5%; }
@@ -1636,28 +1736,90 @@ ul ul a {
     float: none;
     min-height: 100vh !important; }
 
-  .faq-header {
-    width: 100vw;
-    margin-right: -15px !important;
-    margin-left: -15px !important; }
+  #faq h1 {
+    font-size: 80px;
+    color: white;
+    text-align: left; }
+
+  #faq h4 {
+    font-size: 45px;
+    text-align: left; }
+
+  #faq p {
+    font-size: 20px;
+    text-align: left; }
+
+  #faq img {
+    width: 150% !important;
+    position: absolute;
+    right: -5%; }
+
+  .text-2 {
+    margin-top: 40% !important; }
+
+  .text-3 {
+    margin-top: 50% !important; }
 
   .faq-bubble-2, .faq-bubble-1 {
     float: none; }
 
   #submit_form {
-    margin-top: 0%; }
+    margin-top: 0%;
+    padding-bottom: 0%; }
+
+  #submit_form h1 {
+    font-size: 70px; }
+
+  #submit_form label {
+    font-size: 20px; }
+
+  #submit_form img {
+    width: 130% !important;
+    margin-left: -20% !important; }
 
   #submit_form form {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     text-align: center;
     display: block; }
 
-  .merch {
-    width: 70% !important;
-    margin: 0 auto;
-    margin-top: -5%; }
+  #aboutUs h1 {
+    font-size: 80px; }
+
+  #aboutUs h6 {
+    font-size: 40px; }
+
+  #aboutUs p {
+    font-size: 25px;
+    line-height: 45px !important; }
+
+  #aboutUs .eggp {
+    width: 90% !important;
+    margin-right: -10%;
+    margin-top: -10%; }
+
+  #aboutUs .citrusg {
+    width: 110%; }
+
+  #merch h1 {
+    font-size: 80px;
+    text-align: left; }
+
+  .merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8 {
+    width: 15%; }
+
+  .merch1, .merch2, .merch3, .merch4 {
+    margin-right: 5% !important; }
+
+  .merch5, .merch6, .merch7, .merch8 {
+    margin-left: 5% !important; }
+
+  #merch .banana {
+    width: 200% !important;
+    margin-top: -20% !important;
+    margin-right: -10% !important;
+    float: right; }
 
   footer img {
     width: 20%; }
@@ -1737,7 +1899,28 @@ ul ul a {
     cursor: pointer; }
 
   .nav-back a {
-    cursor: pointer; } }
+    cursor: pointer; }
+
+  footer h1 {
+    font-size: 80px; }
+
+  .kiss-img img {
+    margin-top: 0% !important;
+    width: 130% !important;
+    text-align: center;
+    margin: 0 auto; } }
+@media (max-width: 1200px) {
+  #splash img {
+    width: 30%;
+    margin-right: 0% !important;
+    margin-top: 25% !important;
+    top: -1%; }
+
+  #splash h1 {
+    font-size: 60px; }
+
+  #faq img {
+    right: -45%; } }
 html {
   scroll-behavior: smooth;
   background: white; }
@@ -1755,8 +1938,5 @@ h1 {
 
 h4 {
   font-weight: bold !important; }
-
-a {
-  color: white !important; }
 
 /*# sourceMappingURL=main.css.map */

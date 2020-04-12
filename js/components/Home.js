@@ -7,7 +7,6 @@ import section4 from "./section4.js"
 import hows from "./hows.js"
 import endstigma from "./endstigma.js"
 import testimonials from "./testimonials.js"
-import testimonialsPart2 from "./testimonialsPart2.js"
 import aboutUs from "./aboutUs.js"
 import faq from "./faq.js"
 import submit_form from "./submit_form.js"
@@ -122,10 +121,7 @@ export default {
 
     <!-- Testimonials -->
     <testimonials></testimonials>
-
-    <!-- Testimonials Part 2-->
-    <testimonialsPart2></testimonialsPart2>
-
+    
     <!-- FAQ -->
     <faq></faq>
 
@@ -142,10 +138,10 @@ export default {
 
 <!-- Main Footer -->
 <footer class="footer" id="footer">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <img src="./images/logo.png" alt="Logo" class="mt-5">
+                <h1>#OPENUP</h1>
                 <p class="mt-5 mb-5"><router-link to="/adminlogin">Admin Login</router-link></p>
                 <h5 class="text-md-left">Contact Us</h5>
                 <hr>
@@ -162,7 +158,7 @@ export default {
                     </form>
             </div>
             <div class="col-md-4 kiss-img">
-                <img src="./images/Kissss.svg" alt="Logo" class="mt-3">
+                <img src="./images/Kissss.svg" alt="Logo">
             </div>
             <div class="col-md-4 nav-col footer-nav">
                 <ul class="list-unstyled">
@@ -212,7 +208,6 @@ export default {
         hows: hows,
         endstigma: endstigma,
         testimonials: testimonials,
-        testimonialsPart2:testimonialsPart2,
         aboutUs: aboutUs,
         faq: faq,
         submit_form: submit_form,

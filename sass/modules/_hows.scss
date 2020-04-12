@@ -14,7 +14,7 @@
 #transmission {
     text-align: left;
     background-color: #EAA4C8;
-    border: medium solid black;
+    border: 5px solid black;
     border-radius: 25px;
     padding: 10px;
 }
@@ -32,11 +32,19 @@
     height: 100%;
     text-align: left;
     background-color: #EAA4C8;
-    border: medium solid black;
+    border: 5px solid black;
     border-radius: 25px;
     padding: 10px;
 }
 
 #transmission button {
     margin: 0 auto !important;
+}
+
+#transmission .emoji-head {
+    width: 10%;
+}
+
+#safe .emoji-head {
+    width: 10%;
 }

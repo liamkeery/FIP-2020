@@ -25,6 +25,7 @@ export default {
             </a>
         </div>
         <img src="./images/Splashing-sweat-symbol.svg" alt="splash" class="sec4-svg col-lg-6">
+      
   </div>
 </div>
   </section>

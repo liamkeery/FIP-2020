@@ -5,12 +5,13 @@ import home from "./home.js"
 export default {
     template: `  
     <section class="container-fluid" id="submit_form">
-    <div class="row mx-auto text-center">
- 
-            <h1 class="mb-4">Have more questions? Ask away.</h1>
-            <img src="./images/guy.png" alt="splash" class="text-center">
+    <h1 class="mb-4 text-center">Have more questions? Ask away.</h1>
 
-        <div class="col-lg-12 col-sm-12 mt-0">
+    <div class="row mx-auto text-center">
+        <div class="col-lg-6 col-sm-12 mt-0">
+            <img src="./images/guy.png" alt="splash">
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-0">
             <form action="">
                 <div class="form-group text-left">
                     <label for="name">If you prefer to be anonymous, that's okay too!</label>

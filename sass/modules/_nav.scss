@@ -1,3 +1,6 @@
+#mainNav a {
+  color: white;
+}
 .navbar {
   background-color: transparent !important;
 }
@@ -57,7 +60,7 @@ nav.navbar ul li a {
   .navbar-nav a.nav-link.active  {
     display: block;
     width: 100%;
-    height: 100%;
+    // height: 100%;
     border-radius: 5px;
     content: '.';
     color: white;

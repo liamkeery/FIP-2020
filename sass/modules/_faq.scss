@@ -8,15 +8,6 @@
     flex-direction: column;
 }
 
-.faq-header {
-    background-color: #e6e6e6;
-    padding-top: 5%;
-    // height: 40%;
-    margin-top: -7%;
-    width: 100vw;
-    margin-right: -15px !important;
-    margin-left: -15px !important;
-}
 
 #faq h1 {
     font-size: 30px;
@@ -94,6 +85,7 @@ cursor: pointer;
     width: 50%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: -10%;
+    margin-bottom: 10%;
 }
 
