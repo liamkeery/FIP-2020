@@ -44,8 +44,15 @@ export default {
   </section>
     `,
     data: function() {
-        return{}
+        return{
+            faqList: []
+        }
     },
+
+    created: function() {
+        this.getAllFaq();
+    },
+
     methods: {
         expandAnswers1: function expandAnswers1(){
             var answer = document.getElementById("reveal1");
@@ -70,6 +77,16 @@ export default {
             } else {
                 answer.style.display = "none";
             }
+        },
+
+        getAllFaq() {
+            let url = `./admin/index.php?faq=true`;
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    this.faqList = data;
+                })
         }
     }
 }
