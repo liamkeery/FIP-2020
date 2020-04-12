@@ -49,7 +49,7 @@ const vm = new Vue({
   data: {
     authenticated: false,
     administrator: false,
-      user: [],
+    user: [],
   },
 
   methods: { //functionality that you can run in vue
