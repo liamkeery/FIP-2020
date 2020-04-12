@@ -31,11 +31,11 @@ export default {
             <table class="table table-striped table-sm">
               <thead>
                 <tr>
-                  <th>ID</th>
+                  <th class="text-center">ID</th>
                   <th>First Name</th>
                   <th>Username</th>
                   <th>Email</th>
-                  <th>Action</th>
+                  <th class="text-center">Action</th>
                 </tr>
               </thead>
               <tbody>
