@@ -9,7 +9,6 @@ export default {
         <div class="col-lg-8 col-md-12 col-sm-12 mt-0 mx-auto">
             <h1 class="mb-4 mt-5">FAQ</h1>
             <h4 class="mb-4">You've got questions? We've got answers.</h4>
-            <p class="mb-5">Click the light text to get a reply</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 mt-0 mx-auto faq-txt-bubble">
             <img src="./images/speech-bubble.svg" alt="splash" class="text-right">

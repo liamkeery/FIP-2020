@@ -10,11 +10,22 @@
     text-align: center;
 }
 
-.merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8, .merch9{
+.merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8{
     width: 60%;
 }
 
 #merch .banana {
     width: 130% !important;
     margin-bottom: -40%;
+}
+
+.clothing {
+    width: 100%;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+.accessory {
+    width: 100%;
+    margin-bottom: 5%;
 }
