@@ -17,8 +17,8 @@ export default {
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
           <nav class="nav flex-column">
-          <a class="nav-link active" href="#">User Management<span class="float-right"><i class="fas fa-arrow-right"></i></span></a>
-          <a class="nav-link" href="#">Content Management</a>
+          <router-link :to="{ name: 'admin' }" class="nav-link active">User Management<span class="float-right"><i class="fas fa-arrow-right"></i></span></router-link>
+          <router-link :to="{ name: 'content' }" class="nav-link">Content Management</router-link>
         </nav>
             </div>
         </nav>
@@ -66,7 +66,7 @@ export default {
                 <label for="email">Email:</label>
                 <input class="form-control" type="text" id="email" name="email" required placeholder="Email">
             </div>
-                <input class="submit-button" type="submit" name="submit">       
+                <button class="submit-button" type="submit" name="submit">Add User</button>       
         </form>    
         </main>
       </div>
@@ -74,7 +74,7 @@ export default {
     </section>
     `,
 
-  created: function () {
+  created: function() {
     this.fetchAllUsers();
   },
 

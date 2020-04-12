@@ -7,7 +7,7 @@ export default {
                 <td>{{ liveuser.fname }}</td>
                 <td>{{ liveuser.uname }}</td>
                 <td>{{ liveuser.email }}</td>
-                <td><i class="mt-0 ml-2 fas fa-trash-alt"></i> <a href="#" v-on:click="deleteUser(liveuser.id)">Delete</a></td>
+                <td><button v-on:click="deleteUser(liveuser.id)"><i class="fas fa-trash-alt delete-button"></i> Delete</button></td>
                 </tr>
                 `,
     methods: {

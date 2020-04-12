@@ -3,9 +3,7 @@ import home from "./components/home.js";
 import adminlogin from "./components/adminlogin.js";
 import adminCMS from "./components/adminCMS.js";
 import ErrorPage from "./components/ErrorPage.js";
-import manageUsers from "./components/manageUsers.js";
-import editAccount from "./components/editAccount.js";
-import createUser from "./components/createUser.js";
+import manageContent from "./components/manageContent.js";
 
 (() => {
 
@@ -23,19 +21,9 @@ import createUser from "./components/createUser.js";
     name: "admin", 
     component: adminCMS }, 
 
-    { path: "/manage", 
-    name: "manage", 
-    component: manageUsers },
-
-    { path: "/edit",
-      name: "edit",
-      component: editAccount
-    },
-
-    { path: "/create",
-      name: "create",
-      component: createUser
-    },
+    { path: "/content", 
+    name: "content", 
+    component: manageContent },
 
     { path: '*', 
     name: "error", 
