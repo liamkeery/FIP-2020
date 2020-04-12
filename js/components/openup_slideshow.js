@@ -11,11 +11,12 @@ export default {
     </ol>
     <div class="carousel-inner" role="listbox">
     <h3 class="mb-2">Here are some tips on how to open up to <strong>parents, friends and partners</strong></h3>
-      <!-- Slide One -->
-      <div class="carousel-item slide-1 active mt-2">
+      
+    <!-- Slide One -->
+      <div class="carousel-item slide-1 active">
       <h3>Parents</h3>
         <div class="slide-img mb-2">
-            <img src="./images/parent.png" alt="Parent">
+            <img src="./images/Family.svg" alt="Parent">
         </div>
           <p>Our parents are older than us. They lived through a time when AIDS was something new to the world that shocked everyone and instilled fear in a lot of individuals. However, a lot has changed since AIDS was first discovered and it is something people can live a normal life with. </p>
           <h6>Here are some questions to get you started:</h6>
@@ -30,7 +31,7 @@ export default {
       <div class="carousel-item slide-2">
       <h3>Friends</h3>
       <div class="slide-img mb-2">
-            <img src="./images/friends.png" alt="Parent">
+            <img src="./images/Dancers.svg" alt="Parent">
         </div>
           <p>Our friends are our support system through anything. And a lot of the time, they have the same questions you do. Talking about AIDS/HIV with our friends gets the conversation going to create trust and learn more together. So if you or someone you know is living with AIDS/HIV, you have someone to turn to. </p>
           <h6>Here are some questions to get you started:</h6>
@@ -46,7 +47,7 @@ export default {
       <div class="carousel-item slide-3">
       <h3>Partners</h3>
       <div class="slide-img mb-2">
-            <img src="./images/couple.png" alt="Parent">
+            <img src="./images/couple.svg" alt="Parent">
         </div>
           <p>Our partners are the ones who we are intimate with. So talking about HIV/AIDS in terms of sex is important to keep you both safe. Whatever the relationship, it is important to be able to have conversations. </p>
           <h6>Here are some questions to get you started:</h6>

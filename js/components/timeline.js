@@ -31,7 +31,7 @@ export default {
                 <!-- SECOND ITEM -->
                     <li class="timeline-item bg-gray rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-gray"></div>
-                        <img src="./images/pill.png" class="mb-3 mr-3">
+                        <img src="./images/pill.svg" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2 float-left">1992</h2>
                         <p class="text-small mt-2 font-weight-light">First successful combination of drugs to treat AIDS are approved by the FDA.</p>
                     </li>
@@ -39,7 +39,7 @@ export default {
                 <!-- THIRD ITEM -->
                     <li class="timeline-item bg-item-blue rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-blue"></div>
-                        <img src="./images/pill.png" class="mb-3">
+                        <img src="./images/pill.svg" class="mb-3">
                         <img src="./images/guys.svg" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2">1998</h2>
                         <p class="text-small mt-2 font-weight-light">Post-Exposure Prohpylaxis (PEP) is introduced.</p>
@@ -51,7 +51,7 @@ export default {
                 <!-- FOURTH ITEM -->
                     <li class="timeline-item bg-gray rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-gray"></div>
-                        <img src="./images/hospital.png" class="mb-3 mr-3">
+                        <img src="./images/hospital.svg" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2">2012</h2>
                         <p class="text-small mt-2 font-weight-light">Canada issues Pre-Exposure Prophylaxis (PrEP) and gains momentum. </p>
                         <ul class="mt-3">
@@ -62,8 +62,8 @@ export default {
                 <!-- FIFTH ITEM -->
                     <li class="timeline-item bg-item-blue rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-blue"></div>
-                        <img src="./images/canada.png" class="mb-3">
-                        <img src="./images/ok.png" class="mb-3 mr-3">
+                        <img src="./images/CanadianFlag.svg" class="mb-3">
+                        <img src="./images/okay.svg" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2">2016</h2>
                         <p class="text-small mt-2 font-weight-light">Canada approves the use of PrEP.</p>
                     </li>
@@ -71,7 +71,7 @@ export default {
                 <!-- SIXTH ITEM -->
                     <li class="timeline-item bg-gray rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow-gray"></div>
-                        <img src="./images/hospital.png" class="mb-3">
+                        <img src="./images/hospital.svg" class="mb-3">
                         <img src="./images/guys.svg" class="mb-3 mr-3">
                         <h2 class="h5 mb-0 mt-2">2017</h2>
                         <p class="text-small mt-2 font-weight-light"><b>UNDETECTABLE = UNTRANSMITTABLE (U=U)</b> support from Canadian government which decriminalizes the non-disclosure of someone living with HIV as long as his or her viral load was suppressed for at least 6 months before incident.</p>

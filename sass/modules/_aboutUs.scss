@@ -1,14 +1,13 @@
 #aboutUs {
     background-color: #955e99; //try
     padding-top: 5%;
-    padding-bottom: 5%;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
 }
 
 
-#aboutUs img {
+#aboutUs .eggp {
     width: 100%;
     margin-right: -10%;
     margin-top: -50%;
@@ -26,10 +25,20 @@
 #aboutUs p {
     color: white;
     font-size: 16px;
+    text-align: center !important;
 }
 
 #aboutUs span {
     color: white;
     font-weight: bolder;
+
+}
+
+
+
+#aboutUs .citrusg {
+    width: 130%;
+    margin-left: -15%;
+    
 
 }

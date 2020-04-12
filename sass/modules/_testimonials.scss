@@ -1,14 +1,16 @@
 #testimonials {
-    background-color: white;
+    background-color: #D80000;
     position: relative;
     min-height: 100vh;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    // margin-bottom: -1%;
     flex-direction: column;
 }
 
+
+
 #testimonials h1 {
     font-size: 30px;
+    color: white;
 }
 
 #testimonials p {
@@ -47,7 +49,7 @@ float: right;
 &:after {
     right:-56px;
     width:26px;
-    background:white;
+    background:#D80000;
     border-bottom-left-radius: 10px;
     transform:translate(-30px, -2px);
 }
@@ -67,9 +69,14 @@ float: left;
 &:after {
     left:4px;
     width:26px;
-    background:white;
+    background:#D80000;
     border-bottom-right-radius: 10px;
     transform:translate(-30px, -2px);
 }
+}
+
+.testimonials-svg img{
+    width: 100%;
+    margin: 0 auto;
 }
 

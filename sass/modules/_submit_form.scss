@@ -1,12 +1,11 @@
 #submit_form {
-    background-color: rgb(236, 236, 236);
+    background-color:#2DE986;
     min-height: 100vh;
     padding-top: 15%;
     padding-bottom: 5%;
     position: relative;
     overflow: hidden;
     color: white !important;
-    margin-top: 20%;
 
 }
 
@@ -15,15 +14,14 @@
     z-index: 500;
 }
 
-.submit_header {
-    width: 100vw;
-    background-color: #e87a42;
-    margin-top: -17%;
-    margin-right: -15px ;
-    margin-left: -15px;
-    padding-top: 5%;
-    overflow: hidden;
-    position: relative;
+#submit_form img{
+    width: 100% !important;
+    text-align: center;
+}
+
+#submit_form h1 {
+    font-size: 30px;
+    color: black;
 }
 
 .submit_header img {

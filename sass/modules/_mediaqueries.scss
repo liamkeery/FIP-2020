@@ -1,3 +1,35 @@
+@media (max-width: 320px) {
+    #splash img {
+        position: absolute;
+        width: 50%;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: -100%;
+    }
+    #splash h1 {
+        font-size: 30px;
+    }
+    .splash-txt span{
+        font-size: 25px;
+    }
+    #splash-bg .ipad {
+        height: 50vh;
+        margin-bottom: 0%;
+        margin-top: 250%;
+
+    }
+    #section3 img {
+        height: 6%;
+        position: relative;
+        margin-top: 35%;
+    }
+
+    #section3 h1 {
+        font-size: 40px;
+
+    }
+}
+
 @media (min-width: 375px) {
 
       #splash-bg {
@@ -22,7 +54,7 @@
         width: 50%;
         margin: 0 auto;
         display: inline-block;
-        margin-top: -50%;
+        margin-top: -80%;
     }
     .splash-txt span{
         font-size: 35px;
@@ -35,7 +67,8 @@
         margin-top: 20%;
     }
     #section2 img {
-        margin-top: -35%;
+        margin-top: -45%;
+        width: 90%;
 }
     #section3 h1 {
         font-size: 30px;
@@ -97,7 +130,9 @@
         margin-top: 55% !important;
         bottom: 0;
     }
-
+    .navbar-brand img {
+        width: 50%;
+    }
     #splash img {
         width: 35% !important;
         display: block;
@@ -106,6 +141,10 @@
         left: 0px;
         margin-top: -30%;
       }
+
+    #splash .ipad {
+        margin-top: 50%;
+    }
     #openup img {
         width: 70%;
     }
@@ -124,6 +163,10 @@
     }
     #sidebarCollapse span {
         display: none;
+    }
+    .slide-1, .slide-2, .slide-3 {
+        height: 70vh;
+        margin-top: 5%;
     }
     .slide-1 img {
         width: 60%;
@@ -145,7 +188,7 @@
     }
     #section2 img {
         margin-top: -20% !important;
-       width: 60% !important;
+       width: 80%;
        margin: 0 auto;
     }
     #section2 h1 {
@@ -158,6 +201,11 @@
     #section3 h1 {
         font-size: 2.5rem;
     }
+    #section3 img {
+        height: 10%;
+        position: relative;
+        margin-top: 60%;
+    }
     .arrow3 i {
         color: black !important;
         border-width: 0 3px 3px 0;
@@ -165,7 +213,18 @@
         position: absolute;
         margin: 0 auto;
         z-index: 500;
-        margin-top: 30%;
+        margin-top: 10%;
+    }
+    #faq h1 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #faq img {
+        width: 30%;
+        margin-top: 0%;
+
     }
     .sec4-img {
         width: 30%;
@@ -186,13 +245,22 @@
     #transmission button {
         margin: 0 auto !important;
     }
+    #transmission .emoji-head {
+        width: 5%;
+    }
+    
+    #safe .emoji-head {
+        width: 5%;
+    }
     #endstigma img {
         width: 60%;
         margin: 0 auto;
         left: 0px;
           // bottom: 0px !important;
       }
-
+      #testimonials {
+          padding-bottom: -10%;
+      }
       #testimonials p {
 
         max-width: 400px;
@@ -218,13 +286,43 @@
         clear: both !important;
         float: left;
     }
-    #aboutUs img {
-        width: 100%;
-        margin-right: -10%;
-        margin-top: -60%;
+    .testimonials-svg img{
+        // width: 70%;
+        margin: 0 auto;
     }
+    .testimonials2-svg img{
+        // width: 70%;
+        margin: 0 auto;
+    }
+    .bubble-1 {
+        width: 60%;
+    }
+    
+    
+    #aboutUs .eggp {
+        width: 60%;
+        margin-right: -10%;
+        margin-top: -30%;
+    }
+
+    #aboutUs .citrusg {
+        width: 70%;
+       text-align: center;
+       margin: 0 auto;
+       margin-top: 5%;
+
+    }
+    #aboutUs .openup-h1 {
+        margin-bottom: 0px;
+        margin-top: 10%;
+    }
+
     #aboutUs h1 {
         margin-top: -5%;
+    }
+    #merch .banana img {
+        width: 90%;
+        margin-bottom: 10%;
     }
     .faq-bubble-1 {
         clear: both !important;
@@ -243,6 +341,16 @@
         margin-right: -15px !important;
         margin-left: -15px !important;
     }
+    #submit_form h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #submit_form img {
+        width: 60% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
     #submit_form form{
         margin-top: 5% !important;
     }
@@ -251,9 +359,19 @@
         margin: 0 auto;
     }
 
-.footer-form {
-    margin-top: 20%;
-}
+    .footer-form {
+        margin-top: 20%;
+    }
+    .footer-nav {
+        margin-top: 10%;
+    }
+    .kiss-img img {
+        margin-top: 40% !important;
+
+        width: 150% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
 
     
 
@@ -268,7 +386,13 @@
     }
     .navbar-nav {
         text-align: center;
-        background-color: transparent;
+        background-color: transparent !important;
+    }
+    .navbar-brand img {
+        width: 40% !important;
+    }
+    .navbar-brand {
+        width: 40%;
     }
     .dropdown-menu {
         background-color: #2a2a2a !important;
@@ -292,33 +416,93 @@
     #splash img {
         width: 50% !important;
         margin-right: 0% !important;
-        margin-top: 8% !important;
+        margin-top: 10% !important;
         top: -1%;
-
+    }
+    #splash h1 {
+        font-size: 80px;
+    }
+    .splash-txt span {
+        font-size: 55px;
+    }
+    .nav-link i {
+        margin-top: 25% !important;
     }
     #splash-bg {
         margin-top: 20% !important;
        margin-left: 10% !important;
+    }
+    #splash-bg .ipad {
+        margin-top: 0%;
     }
     #openup img {
         width: 100%;
         float: right;
         margin-right: 0px;
     }
+    #openup h1 {
+        color: black;
+        margin-top: 10%;
+        font-size: 80px;
 
+    }
+    #openup h4 {
+        font-size: 45px;
+        
+    }
+    #openup p {
+        font-size: 20px;
+        line-height: 40px;
+
+    }
     .arrow-1 i {
 
         border-width: 0 3px 3px 0;
         display: inline-block;
         padding: 6px;
         position : absolute;
-        margin-top: 40% !important;
+        margin-top: 10% !important;
         margin-left: 40%;
         z-index: 100 !important;
     }
+
+    #openup_slideshow {
+        min-height: 100%;
+
+    }
+
+    .slide-1, .slide-2, .slide-3 {
+        border-radius: 15px;
+        min-height: 100%;
+        padding: 5%;
+        text-align: center;
+        border: 5px solid black;
+    }
+  
     .carousel-inner {
+        width: 80% !important;
+        min-height: 120% !important;
         margin: 0 auto;
-        width: 40% !important;
+        
+    }
+
+    .slide-1 img {
+        width: 30%;
+        text-align: center !important;
+        display: block;
+        margin: 0 auto;
+    }
+    .slide-2 img {
+        width: 30%;
+
+    }
+    .slide-3 img {
+        width: 30%;
+
+    }
+    .slide-img {
+        width: 40%;
+        height: 40%;
     }
 
     #section2 {
@@ -331,25 +515,67 @@
 }
     #section2 h1 {
         margin-top: 5%;
+        font-size: 80px;
+    }
+
+    #section2 h4 {
+        font-size: 45px;
+    }
+    #section2 p {
+        font-size: 20px;
+        line-height: 40px;
+
     }
     .arrow2 i {
-        margin-top: 40%;
+        margin-top: 10%;
     }
-   
-    #section3 img {
-        height: 120%;
-        margin-right: -10% !important;
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+        margin-left: -40%;
+        // padding-left: 1.5rem;
+    }
+    li.timeline-item {
+       width: 80vw;
+
+    }
+    ul.timeline:before {
+        left: 16px;
+        min-height: 100%;
+    }
+    #section3 {
+        min-height: 100vh;
     }
     #section3 h1 {
-        font-size: 2.5rem;
+        font-size: 70px;
+        margin-top: 5%;
+    }
+    #section3 h4 {
+        font-size: 40px;
         margin-top: 5%;
     }
     #section3 span {
         font-size: 32px;
 
     }
+    #section3 img {
+        height: 15%;
+        position: relative;
+        margin-top: 80%;
+        margin: 0 auto;
+        // top: 0px;
+        // right: 0px;
+        // left: 0px;
+        text-align: center;
+
+    }
+    #section3 button {
+        margin: 0 auto;
+        text-align: center;
+
+    }
     .arrow3 i {
-        margin-top: 50%;
+        margin-top: 20%;
     }
     
     #timeline img {
@@ -358,14 +584,16 @@
     }
     #section4 {
         padding-bottom: 0px !important;
+        min-height: 100vh;
+        padding-top: 2% !important;
     }
     #section4 h1 {
         margin-top: 20%;
-        font-size: 2.5rem;
+        font-size: 68px;
     }
     
     #section4 h4 {
-        font-size: 32px;
+        font-size: 30px;
 
     }
     .sec4-img {
@@ -375,9 +603,9 @@
         margin-right: 20%;
     }
     .sec4-svg {
-        width: 80% !important;
+        width: 90% !important;
         margin-bottom: 0px;
-        margin-top: 10% !important;
+        margin-top: 5% !important;
         bottom: 0;
         right:0;
         left: 0;
@@ -390,13 +618,13 @@
         position: absolute;
         margin: 0 auto;
         z-index: 500;
-        margin-top: 20% !important;
+        margin-top: 0% !important;
     }
     #transmission {
         display: inline-block;
     }
     #safe {
-        margin-left: 5%;
+        
         display: inline-block;
       
     }
@@ -404,20 +632,65 @@
         display: block;
         clear: both;
     }
+    #hows h3 {
+        font-size: 70px;
+    }
+    #hows p {
+        font-size: 20px;
+    }
+    #hows ul li {
+        font-size: 20px;
+        
+    }
+    #transmission p {
+        line-height: 25px;
+    }
+
+    #transmission .emoji-head {
+        width: 3%;
+    }
+    
+    #safe .emoji-head {
+        width: 3%;
+    }
+    #transmission li {
+        list-style-type: circle !important;
+    }
+    #hows a:hover {
+        text-decoration: none;
+    }
     #endstigma {
         max-height: 100vh;
     }
+    #endstigma {
+        overflow: hidden;
+    }
     #endstigma img{
-        width: 40% !important;
+        width: 50% !important;
         height: 10% !important;
-        margin-bottom: 20%;
+        margin-top: -10%;
         bottom: 0px;
+        margin-left: -5%;
 
     }
-    #aboutUs img {
-        width: 80%;
-        margin-left: -10%;
-        margin-top: 1%;
+    #endstigma h1 {
+        font-size: 70px;
+        margin-top: 5%;
+    }
+    #testimonials {
+        padding-bottom: 0%;
+    }
+ 
+    #testimonials h1 {
+        font-size: 60px;
+        color: white;
+    }
+    .testimonials-svg{
+        width: 100% !important; 
+    }
+    .testimonials2-svg {
+        height: 280% !important; 
+        left: -10% !important;
     }
     #aboutUs h1 {
         margin-top: 5%;
@@ -430,30 +703,99 @@
         float: none;
         min-height: 100vh !important;
     }
-    .faq-header {
-        width: 100vw;
-        margin-right: -15px !important;
-        margin-left: -15px !important;
+    #faq h1 {
+        font-size: 80px;
+        color: white;
+        text-align: left;
+        // margin: 0 auto;
+    }
+    #faq h4 {
+        font-size: 45px;
+        text-align: left;
+        // margin: 0 auto;
+    }
+    #faq p {
+        font-size: 20px;
+        text-align: left;
+        // margin: 0 auto;
+    }
+    #faq img{
+        width: 150% !important;
+        position: absolute;
+        right: -5%;
+    }
+    .text-2 {
+        margin-top: 40% !important;
+    }
+    .text-3 {
+        margin-top: 50% !important;
     }
     .faq-bubble-2, .faq-bubble-1 {
         float: none;
     }
     #submit_form {
         margin-top: 0%;
+        padding-bottom: 0%;
     }
-
+    #submit_form h1{
+        font-size: 70px;
+    } 
+    #submit_form label{
+        font-size: 20px;
+    }
+    #submit_form img {
+        width: 130% !important;
+        margin-left: -20% !important;
+    }
     #submit_form form {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
         text-align: center;
         display: block;
     }
-    .merch {
-        width: 70% !important;
-        margin: 0 auto;
-        margin-top: -5%;
+    #aboutUs h1 {
+        font-size: 80px;
+    }
+    #aboutUs h6 {
+        font-size: 40px;
+      
+    }
+    #aboutUs p {
+        font-size: 25px;
+        line-height: 45px !important;
+      
+    }
+    #aboutUs .eggp {
+        width: 90% !important;
+        margin-right: -10%;
+        margin-top: -10%;
+    }
+    #aboutUs .citrusg {
+        width: 110%;
         
+    
+    }
+    #merch h1{
+        font-size: 80px;
+        text-align: left;
+    }
+
+    .merch1, .merch2, .merch3, .merch4, .merch5, .merch6, .merch7, .merch8 {
+        width: 15%;
+    }
+    .merch1, .merch2, .merch3, .merch4 {
+        margin-right: 5% !important;
+    }
+    .merch5, .merch6, .merch7, .merch8 {
+        margin-left: 5% !important;
+    }
+    #merch .banana {
+        width: 200% !important;
+        margin-top: -20% !important;
+        margin-right: -10% !important;
+
+        float: right;
     }
 
     footer img {
@@ -558,4 +900,29 @@
     .nav-back a {
         cursor: pointer;
     }
+    footer h1 {
+        font-size: 80px;
+    }
+    .kiss-img img {
+        margin-top: 0% !important;
+        width: 130% !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1200px) { 
+    #splash img {
+        width: 30%;
+        margin-right: 0% !important;
+        margin-top: 25% !important;
+        top: -1%;
+    }
+    #splash h1 {
+        font-size: 60px;
+    }
+    #faq img {
+        right: -45%;
+    }
+
 }

@@ -24,7 +24,8 @@ export default {
               <p class="arrow-down"><i class="fas fa-chevron-down"></i></p>
             </a>
         </div>
-        <img src="./images/watermelon-girl.png" alt="splash" class="sec4-svg col-lg-6">
+        <img src="./images/Splashing-sweat-symbol.svg" alt="splash" class="sec4-svg col-lg-6">
+      
   </div>
 </div>
   </section>

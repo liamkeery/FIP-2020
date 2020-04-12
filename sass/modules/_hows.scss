@@ -1,5 +1,5 @@
 #hows {
-    background-color: #F1933B;
+    background-color: #4BC9F5;
     min-height: 100vh;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -13,8 +13,10 @@
 
 #transmission {
     text-align: left;
-    background-color: white;
-    border: medium solid black;
+    background-color: #EAA4C8;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 .trans-header {
@@ -29,10 +31,20 @@
 #safe {
     height: 100%;
     text-align: left;
-    background-color: white;
-    border: medium solid black;
+    background-color: #EAA4C8;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 10px;
 }
 
 #transmission button {
     margin: 0 auto !important;
+}
+
+#transmission .emoji-head {
+    width: 10%;
+}
+
+#safe .emoji-head {
+    width: 10%;
 }

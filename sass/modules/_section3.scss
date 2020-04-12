@@ -3,18 +3,18 @@ b {
 }
 #section3 {
     padding-top: 5%;
-    background: url('/FIP-2020/images/diduknow.png') !important;
+    background: url('/FIP-2020/images/sect3-bg.png') !important;
     background-repeat: no-repeat;
+    background-size: contain;
     min-height: 100vh;
-    height: 100vh;
     padding-bottom: 5%;
     overflow: hidden !important;
 }
 
 #section3 img {
-    height: 12%;
+    height: 8%;
     position: relative;
-    margin-top: 20%;
+    margin-top: 35%;
 }
 
 #section3 h1 {
@@ -33,12 +33,13 @@ b {
    font-size: 40px;
 }
 .btn-sec3 {
-    background-color: #D80000 !important;
+    background-color: black !important;
+    color: white !important;
 }
 
 .btn-sec3:hover {
-    background-color: #F1933B !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
 }
 
 .arrow3 i {
@@ -48,5 +49,5 @@ b {
     position: absolute;
     margin: 0 auto;
     z-index: 500;
-    margin-top: 60%;
+    margin-top: 5%;
 }
