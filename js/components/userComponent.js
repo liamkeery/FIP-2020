@@ -3,11 +3,11 @@ export default {
 
     template: `
                 <tr>
-                <td>{{ liveuser.id }}</td>
+                <td class="text-center">{{ liveuser.id }}</td>
                 <td>{{ liveuser.fname }}</td>
                 <td>{{ liveuser.uname }}</td>
                 <td>{{ liveuser.email }}</td>
-                <td><button v-on:click="deleteUser(liveuser.id)"><i class="fas fa-trash-alt delete-button"></i> Delete</button></td>
+                <td class="text-center"><button v-on:click="deleteUser(liveuser.id)"><i class="fas fa-trash-alt delete-button"></i> Delete</button></td>
                 </tr>
                 `,
     methods: {
