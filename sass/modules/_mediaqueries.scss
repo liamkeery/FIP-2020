@@ -46,9 +46,7 @@
         background-color: #2a2a2a;
     }
 
-    #splash h1 {
-        font-size: 50px;
-    }
+
     #splash img {
         position: absolute;
         width: 50%;
@@ -141,9 +139,11 @@
         left: 0px;
         margin-top: -30%;
       }
-
+    #splash h1 {
+        font-size: 40px;
+    }
     #splash .ipad {
-        margin-top: 50%;
+        margin-top: 60%;
     }
     #openup img {
         width: 70%;
@@ -909,20 +909,4 @@
         text-align: center;
         margin: 0 auto;
     }
-}
-
-@media (max-width: 1200px) { 
-    #splash img {
-        width: 30%;
-        margin-right: 0% !important;
-        margin-top: 25% !important;
-        top: -1%;
-    }
-    #splash h1 {
-        font-size: 60px;
-    }
-    #faq img {
-        right: -45%;
-    }
-
 }
