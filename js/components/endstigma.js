@@ -9,9 +9,9 @@ export default {
     <img src="./images/cherry.svg" alt="Cherries" class="text-center">
         <div class="col-lg-6 col-sm-12 mt-0">
             <h1 class="mb-4">Let's End the Stigma</h1>
-            <video controls poster="./images/placeholder.png" class="mb-5 mt-3">
-                <source src="./images/sample.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
+            <video controls class="mb-5 mt-3">
+                <source src="./video/MAIN_v02.mp4" type="video/mp4">
+                <source src="./video/MAIN_v02.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
         </div> 
