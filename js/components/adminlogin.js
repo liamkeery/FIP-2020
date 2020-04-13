@@ -16,7 +16,7 @@ export default {
             <div class="col-lg-3 mx-auto">
                 <div class="form text-center">
                     <form class="px-4 py-3 mx-auto shadow"> <!-- Post is ideal to use here so information won't be exposed-->
-                        <img src="./images/logo-final.png" alt="Logo">
+                        <img src="./images/logo.svg" alt="Logo">
                         <h3 class="login-title">Admin Panel</h3>
                         <h6 class="mx-auto text-center mb-4 cred">Please enter your credentials</h6>
                         <div class="form-group">
